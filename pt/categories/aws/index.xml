@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Numbers on Call me Sam</title>
-    <link>/categories/numbers/</link>
-    <description>Recent content in Numbers on Call me Sam</description>
+    <title>Aws on Call me Sam</title>
+    <link>/pt/categories/aws/</link>
+    <description>Recent content in Aws on Call me Sam</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language>
+    <language>pt</language>
     <lastBuildDate>Sat, 11 Feb 2017 12:34:41 -0500</lastBuildDate>
     
-	<atom:link href="/categories/numbers/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/pt/categories/aws/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Dear Jane, regarding Mr. Bennet</title>
-      <link>/posts/dear-jane/</link>
+      <title>PT Dear Jane, regarding Mr. Bennet</title>
+      <link>/pt/posts/dear-jane/</link>
       <pubDate>Sat, 11 Feb 2017 12:34:41 -0500</pubDate>
       
-      <guid>/posts/dear-jane/</guid>
-      <description>Chapter One It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.
+      <guid>/pt/posts/dear-jane/</guid>
+      <description>Chapter One PT It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.
 However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered the rightful property of some one or other of their daughters.</description>
     </item>
     

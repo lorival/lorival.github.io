@@ -5,7 +5,7 @@
     <link>/tags/blog/</link>
     <description>Recent content in Blog on Call me Sam</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language>
+    <language>pt</language>
     <lastBuildDate>Wed, 11 Apr 2018 12:34:41 -0500</lastBuildDate>
     
 	<atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
@@ -13,10 +13,10 @@
     
     <item>
       <title>Long Form Post</title>
-      <link>/posts/long-form-post/</link>
+      <link>/posts/a-propos/</link>
       <pubDate>Wed, 11 Apr 2018 12:34:41 -0500</pubDate>
       
-      <guid>/posts/long-form-post/</guid>
+      <guid>/posts/a-propos/</guid>
       <description>lorival Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus eget nunc scelerisque viverra. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Pharetra magna ac placerat vestibulum lectus mauris. Eget lorem dolor sed viverra ipsum. Elementum nisi quis eleifend quam adipiscing. Aliquet nec ullamcorper sit amet risus. Auctor neque vitae tempus quam pellentesque. Tincidunt lobortis feugiat vivamus at augue.</description>
     </item>
     
