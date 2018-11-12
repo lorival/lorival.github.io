@@ -79,22 +79,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2018-04-12T12:34:41-05:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
     <lastmod>2017-02-11T12:34:41-05:00</lastmod>
     <priority>0</priority>
@@ -123,6 +107,22 @@
                 rel="alternate"
                 hreflang="en"
                 href="/tags/code/"
+                />
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-04-12T12:34:41-05:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
                 />
   </url>
   
