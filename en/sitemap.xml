@@ -3,32 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts/a-propos/</loc>
-    <lastmod>2018-04-12T12:34:41-05:00</lastmod>
+    <loc>/posts/studying-english-with-low-cost/</loc>
+    <lastmod>2018-11-17T12:34:41-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/posts/pt-a-propos/"
+                href="/pt/posts/studying-english-with-low-cost/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/posts/a-propos/"
-                />
-  </url>
-  
-  <url>
-    <loc>/posts/dear-jane/</loc>
-    <lastmod>2017-02-11T12:34:41-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/posts/dear-jane/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/posts/dear-jane/"
+                href="/posts/studying-english-with-low-cost/"
                 />
   </url>
   
@@ -47,40 +32,7 @@
   </url>
   
   <url>
-    <loc>/categories/aws/</loc>
-    <lastmod>2017-02-11T12:34:41-05:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/categories/aws/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/aws/"
-                />
-  </url>
-  
-  <url>
-    <loc>/tags/blog/</loc>
-    <lastmod>2018-04-12T12:34:41-05:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/tags/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/blog/"
-                />
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
-    <lastmod>2017-02-11T12:34:41-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -95,24 +47,40 @@
   </url>
   
   <url>
-    <loc>/tags/code/</loc>
-    <lastmod>2018-04-12T12:34:41-05:00</lastmod>
+    <loc>/categories/culture/</loc>
+    <lastmod>2018-11-17T12:34:41-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/tags/code/"
+                href="/pt/categories/culture/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/code/"
+                href="/categories/culture/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/english/</loc>
+    <lastmod>2018-11-17T12:34:41-05:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/tags/english/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/english/"
                 />
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-04-12T12:34:41-05:00</lastmod>
+    <lastmod>2018-11-17T12:34:41-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -127,24 +95,8 @@
   </url>
   
   <url>
-    <loc>/categories/machine-learning/</loc>
-    <lastmod>2018-04-12T12:34:41-05:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/categories/machine-learning/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/machine-learning/"
-                />
-  </url>
-  
-  <url>
     <loc>/posts/</loc>
-    <lastmod>2018-04-12T12:34:41-05:00</lastmod>
+    <lastmod>2018-11-17T12:34:41-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -160,7 +112,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-04-12T12:34:41-05:00</lastmod>
+    <lastmod>2018-11-17T12:34:41-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -171,6 +123,22 @@
                 rel="alternate"
                 hreflang="en"
                 href="/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/tips/</loc>
+    <lastmod>2018-11-17T12:34:41-05:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/tags/tips/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/tips/"
                 />
   </url>
   

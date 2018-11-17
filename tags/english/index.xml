@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aws on Lorival Smolski Chapuis</title>
-    <link>/categories/aws/</link>
-    <description>Recent content in Aws on Lorival Smolski Chapuis</description>
+    <title>English on Lorival Smolski Chapuis</title>
+    <link>/tags/english/</link>
+    <description>Recent content in English on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Sat, 11 Feb 2017 12:34:41 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 17 Nov 2018 12:34:41 -0500</lastBuildDate>
     
-	<atom:link href="/categories/aws/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/english/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Dear Jane, regarding Mr. Bennet</title>
-      <link>/posts/dear-jane/</link>
-      <pubDate>Sat, 11 Feb 2017 12:34:41 -0500</pubDate>
+      <title>Estudando INGRISH com baixo custo</title>
+      <link>/posts/studying-english-with-low-cost/</link>
+      <pubDate>Sat, 17 Nov 2018 12:34:41 -0500</pubDate>
       
-      <guid>/posts/dear-jane/</guid>
+      <guid>/posts/studying-english-with-low-cost/</guid>
       <description>Chapter One It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.
 However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered the rightful property of some one or other of their daughters.</description>
     </item>

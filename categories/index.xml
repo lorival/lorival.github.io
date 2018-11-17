@@ -6,26 +6,16 @@
     <description>Recent content in Categories on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Sat, 11 Feb 2017 12:34:41 -0500</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Aws</title>
-      <link>/categories/aws/</link>
-      <pubDate>Sat, 11 Feb 2017 12:34:41 -0500</pubDate>
+      <title>Culture</title>
+      <link>/categories/culture/</link>
+      <pubDate>Sat, 17 Nov 2018 12:34:41 -0500</pubDate>
       
-      <guid>/categories/aws/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>/categories/machine-learning/</link>
-      <pubDate>Wed, 11 Apr 2018 12:34:41 -0500</pubDate>
-      
-      <guid>/categories/machine-learning/</guid>
+      <guid>/categories/culture/</guid>
       <description></description>
     </item>
     
