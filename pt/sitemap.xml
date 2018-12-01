@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/pt/posts/how-to-create-custom-emails-using-dns-for-free/</loc>
+    <lastmod>2018-11-30T12:34:41-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/how-to-create-custom-emails-using-dns-for-free/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/posts/how-to-create-custom-emails-using-dns-for-free/"
+                />
+  </url>
+  
+  <url>
     <loc>/pt/posts/como-estudar-ingles-do-zero-economizando/</loc>
     <lastmod>2018-11-17T12:34:41-05:00</lastmod>
     <xhtml:link
@@ -63,6 +78,22 @@
   </url>
   
   <url>
+    <loc>/pt/tags/email/</loc>
+    <lastmod>2018-11-30T12:34:41-05:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/email/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/tags/email/"
+                />
+  </url>
+  
+  <url>
     <loc>/pt/tags/english/</loc>
     <lastmod>2018-11-17T12:34:41-05:00</lastmod>
     <priority>0</priority>
@@ -79,8 +110,24 @@
   </url>
   
   <url>
+    <loc>/pt/categories/life-code/</loc>
+    <lastmod>2018-11-30T12:34:41-05:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/life-code/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/categories/life-code/"
+                />
+  </url>
+  
+  <url>
     <loc>/pt/</loc>
-    <lastmod>2018-11-17T12:34:41-05:00</lastmod>
+    <lastmod>2018-11-30T12:34:41-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -96,7 +143,7 @@
   
   <url>
     <loc>/pt/posts/</loc>
-    <lastmod>2018-11-17T12:34:41-05:00</lastmod>
+    <lastmod>2018-11-30T12:34:41-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -112,7 +159,7 @@
   
   <url>
     <loc>/pt/tags/</loc>
-    <lastmod>2018-11-17T12:34:41-05:00</lastmod>
+    <lastmod>2018-11-30T12:34:41-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -128,7 +175,7 @@
   
   <url>
     <loc>/pt/tags/tips/</loc>
-    <lastmod>2018-11-17T12:34:41-05:00</lastmod>
+    <lastmod>2018-11-30T12:34:41-05:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"

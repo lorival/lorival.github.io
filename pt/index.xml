@@ -6,10 +6,20 @@
     <description>Recent content on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Sat, 17 Nov 2018 12:34:41 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 30 Nov 2018 12:34:41 -0500</lastBuildDate>
     
 	<atom:link href="/pt/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Como criar e-mails personalizando usando seu DNS de graça</title>
+      <link>/pt/posts/how-to-create-custom-emails-using-dns-for-free/</link>
+      <pubDate>Fri, 30 Nov 2018 12:34:41 -0500</pubDate>
+      
+      <guid>/pt/posts/how-to-create-custom-emails-using-dns-for-free/</guid>
+      <description>E aí, registrou seu domínio, hospedou em algum lugar de graça como GitHub Pages, Netlify, Firebase, Heroku ou Back4app e agora gostaria de ter um e-mail com seunome@seudominio sem custo? Se você tem um negócio, ter um e-mail contato@seudominio é excencial.
+É bem fácil e rápido de fazer e você só precisa ter acesso a edição do seu DNS! O legal é que funciona muito bem com o registro.br também! Bora para o tutorial usando o Zoho Mail!</description>
+    </item>
     
     <item>
       <title>Como estudar inglês do zero economizando</title>
