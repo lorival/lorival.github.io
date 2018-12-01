@@ -6,15 +6,24 @@
     <description>Recent content on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Fri, 30 Nov 2018 12:34:41 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 20 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Avoid or protect the use of target=&#39;_blank&#39; in your links. Vulnerability on the way!</title>
+      <link>/posts/avoid-or-protect-the-use-of-target-blank-in-your-links/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/avoid-or-protect-the-use-of-target-blank-in-your-links/</guid>
+      <description>&lt;p&gt;Ainda é comum ser usado o atributo &lt;code&gt;target=&amp;rdquo;_BLANK&amp;rdquo;&lt;/code&gt; em um link com o objetivo de abrir ele em uma nova aba no navegador, gerando uma vulnerabilidade. Mas e se precisamos deste atributo, como usá-lo de forma segura? Vamos falar de &lt;code&gt;rel=&amp;ldquo;noopener&amp;rdquo;&lt;/code&gt; e &lt;code&gt;rel=&amp;ldquo;noreferrer&amp;rdquo;&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>How to create custom emails using DNS for free</title>
       <link>/posts/how-to-create-custom-emails-using-dns-for-free/</link>
-      <pubDate>Fri, 30 Nov 2018 12:34:41 -0500</pubDate>
+      <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/how-to-create-custom-emails-using-dns-for-free/</guid>
       <description>You registered your domain, it has been hosted somewhere for free as GitHub Pages, Netlify, Firebase, Heroku ou Back4app and now would like to have an email with your name@yourdomain without cost? If you have a business, having an email like contact@yourdomain is excential.
@@ -24,12 +33,48 @@ It is very easy and quick to do this and you only need to have access to edit th
     <item>
       <title>How to improve your English from scratch saving your money</title>
       <link>/posts/how-to-improve-your-english-from-scratch-saving-your-money/</link>
-      <pubDate>Sat, 17 Nov 2018 12:34:41 -0500</pubDate>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/how-to-improve-your-english-from-scratch-saving-your-money/</guid>
       <description>The English language is fundamental to every technology professional. How to start developing this skill saving money?
 According to a well-known Brazilian magazine only 5% of Brazilians are fluent in Englishs, it&amp;rsquo;s incredible how many English schools there are in Brazil and so few fluent people, not to mention that 65% of them say they do not study because it is expensive.
 I&amp;rsquo;m not fluent in English, so I&amp;rsquo;m not part of these 5%, but I&amp;rsquo;d like like to share some study tips that I used or I use today to continue improving my English without necessarily going to a regular school.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/static/avoid-or-protect-the-use-of-target-blank-in-your-links-cracked/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/static/avoid-or-protect-the-use-of-target-blank-in-your-links-cracked/</guid>
+      <description>The tab with blog &#34;lorival.com.br&#34; was hacked! Go back to the original tab to see!  if (window.opener) opener.location = &#39;/static/avoid-or-protect-the-use-of-target-blank-in-your-links-go-back&#39;; else document.querySelector(&#39;h1&#39;).innerHTML = &#39;The tab with blog &#34;lorival.com.br&#34; is intact!&#39;;  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/static/avoid-or-protect-the-use-of-target-blank-in-your-links-go-back/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/static/avoid-or-protect-the-use-of-target-blank-in-your-links-go-back/</guid>
+      <description>I am your GOD now and you will do what I tell you! =P I&#39;m just kidding, click here to return to original post </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/static/evite-ou-proteja-o-uso-do-target-blank-em-seus-links-vulnerabilidade-a-vista-cracked/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/static/evite-ou-proteja-o-uso-do-target-blank-em-seus-links-vulnerabilidade-a-vista-cracked/</guid>
+      <description>A tab com o blog &#34;lorival.com.br&#34; foi hackeada! Volte para a tab original para ver como ficou!  if (window.opener) opener.location = &#39;/static/evite-ou-proteja-o-uso-do-target-blank-em-seus-links-vulnerabilidade-a-vista-retornar&#39;; else document.querySelector(&#39;h1&#39;).innerHTML = &#39;A tab com o blog &#34;lorival.com.br&#34; está instacta!&#39;;  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/static/evite-ou-proteja-o-uso-do-target-blank-em-seus-links-vulnerabilidade-a-vista-retornar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/static/evite-ou-proteja-o-uso-do-target-blank-em-seus-links-vulnerabilidade-a-vista-retornar/</guid>
+      <description>Eu sou seu DEUS agora e você fará tudo que eu mandar! Muahahaha To brincando, clique aqui para voltar para o post </description>
     </item>
     
   </channel>

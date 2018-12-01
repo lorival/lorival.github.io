@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Fri, 30 Nov 2018 12:34:41 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 10 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Email</title>
       <link>/tags/email/</link>
-      <pubDate>Fri, 30 Nov 2018 12:34:41 -0500</pubDate>
+      <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/email/</guid>
       <description></description>
@@ -23,18 +23,45 @@
     <item>
       <title>English</title>
       <link>/tags/english/</link>
-      <pubDate>Sat, 17 Nov 2018 12:34:41 -0500</pubDate>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/english/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Html</title>
+      <link>/tags/html/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>/tags/security/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tips</title>
       <link>/tags/tips/</link>
-      <pubDate>Fri, 30 Nov 2018 12:34:41 -0500</pubDate>
+      <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vulnerability</title>
+      <link>/tags/vulnerability/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/vulnerability/</guid>
       <description></description>
     </item>
     

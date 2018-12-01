@@ -119,7 +119,7 @@
 <li style="float: right">
     
         <img src="/images/home/us.png" alt="Full Stack Hacker">
-        <a href="/posts/how-to-create-custom-emails-using-dns-for-free/" title="Read in English">Read in English</a>
+        <a href="/posts/avoid-or-protect-the-use-of-target-blank-in-your-links/" title="Read in English">Read in English</a>
     
 </li>
                     </ul>
@@ -148,11 +148,11 @@
             </li>
             <li>
                 
-                <a href="/pt/posts/como-estudar-ingles-do-zero-economizando/" title="Anterior" style="background-color: rgba(243, 243, 243, 0.95);">
+                <a href="/pt/posts/como-criar-e-mails-personalizados-usando-seu-dns-de-graca/" title="Anterior" style="background-color: rgba(243, 243, 243, 0.95);">
                     <i class="pe-7s-angle-left"></i>
                     <div>
                         <p>Anterior</p>
-                        <h3>Como estudar inglês do zero economizando</h3>
+                        <h3>Como criar e-mails personalizados usando seu DNS de graça</h3>
                     </div>
                 </a>
                 
@@ -180,9 +180,9 @@
      
 
                             <div class="articles-header">
-                                <span><i class="pe-7s-clock" style="font-weight: bold"></i> Leia em 2 min &nbsp;</span>
+                                <span><i class="pe-7s-clock" style="font-weight: bold"></i> Leia em 3 min &nbsp;</span>
                                 <span><i class="pe-7s-date" style="font-weight: bold"></i> 
-    30 de nov de 2018
+    20 de nov de 2018
 </span>
                                 
                                 
@@ -213,26 +213,35 @@
 
                             </div>
                             <div class="articles-content">
-                                <img src="/images/posts/how-to-create-custom-emails-using-dns-for-free.jpg" style="width: 100%;height: auto;">
-                                <h1 class="articles-content-blog-post-title">Como criar e-mails personalizando usando seu DNS de graça</h1>
-                                <p><p>E aí, registrou seu domínio, hospedou em algum lugar de graça como <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, <a href="https://www.netlify.com/" target="_blank">Netlify</a>, <a href="https://firebase.google.com" target="_blank">Firebase</a>, <a href="https://www.heroku.com/" target="_blank">Heroku</a> ou <a href="https://back4app.com/" target="_blank">Back4app</a> e agora gostaria de ter um e-mail com seunome@seudominio sem custo? Se você tem um negócio, ter um e-mail contato@seudominio é excencial.</p>
+                                <img src="/images/posts/avoid-or-protect-the-use-of-target-blank-in-your-links.jpg" style="width: 100%;height: auto;">
+                                <h1 class="articles-content-blog-post-title">Evite ou proteja o uso do target=&#39;_blank&#39; em seus links. Vulnerabilidade a vista!</h1>
+                                <p><p>Ainda é comum ser usado o atributo <code>target=&rdquo;_BLANK&rdquo;</code> em um link com o objetivo de abrir ele em uma nova aba no navegador, gerando uma vulnerabilidade. Mas e se precisamos deste atributo, como usá-lo de forma segura? Vamos falar de <code>rel=&ldquo;noopener&rdquo;</code> e <code>rel=&ldquo;noreferrer&rdquo;</code>.</p>
 
-<p>É bem fácil e rápido de fazer e você só precisa ter acesso a edição do seu DNS! O legal é que funciona muito bem com o <a href="https://registro.br/" target="_blank">registro.br</a> também! Bora para o tutorial usando o <a href="https://www.zoho.com/mail/" target="_blank">Zoho Mail</a>! =)</p>
+<p>Existe um comportamento bem curioso quando usamos <code>target=&rdquo;_BLANK&rdquo;</code> em links, basicamente o link que abriu consegue ter acesso ao <code>window.opener.location</code>, ou seja, permite alterar a url de quem chamou ele.</p>
 
-<ol>
-<li>Acesse o site do <a href="https://workplace.zoho.com/orgsignup.do" target="_blank"> Zoho Mail </a>, digite seu e-mail e clique em &ldquo;continuar&rdquo;.</li>
-<li>Preencha seus dados, aceite os termos e clique em &ldquo;prosseguir&rdquo;. Depois de terminar o processo de cadastro, você irá para o painel de configuração do Zoho, na etapa de verificar se você é realmente o dono do domínio.</li>
-<li>Faça a verificação que você achar mais fácil. A forma menos intrusiva é editar seu DNS e adicionar uma nova linha TXT com o texto que é sugerido pelo Zoho. Neste caso pode demorar até duas horas para propagar o DNS e você conseguir validar.</li>
-<li>Agora basta seguir os passos da configuração, que basicamente será selecionar um e-mail para você usar e depois adicionar os registros MX no seu DNS.</li>
-<li>Concluída a configuração, você terá acesso ao seu e-mail pelo link do <a href="https://mail.zoho.com" target="_blank">Zoho Mail</a>.</li>
-</ol>
+<p>Vamos ver uma aplicação simples desta vulnerabilidade, <a href="/static/evite-ou-proteja-o-uso-do-target-blank-em-seus-links-vulnerabilidade-a-vista-cracked/" target="_BLANK">clique aqui para abrir uma nova aba</a>. Fique tranquilo, vamos fazer um teste controlado, você não vai ter problemas. Dê uma olhada no código fonte da página que abrir e volte aqui =)</p>
 
-<p>Você pode baixar o <a href="https://www.zoho.com/pt-br/mail/ios-android-apps.html" target="_blank">aplicativo</a> do Zoho Mail no seu smartphone e a versão web é bem bonita.</p>
+<p>O que achou do resultado? Um site malicioso poderia substituir o site original por um falso, solicitando as credenciais novamente, por exemplo. Isto apenas porque usou o <code>target=&rdquo;_BLANK&rdquo;</code>.</p>
 
-<p>Você também pode criar diversos alias para seu e-mail ou mesmo criar um redirecionador pelo Zoho.</p>
+<p>O principal motivo para usarmos esta abordagem é porque não queremos que os clientes de nosso site saiam dele. Na prática a maioria das pessoas já usam o ctrl ou o botão do meio no mouse para abrir um link em uma nova aba, mas como desenvolvedores ou UX designers queremos dar uma &ldquo;melhor experiência&rdquo; para nossos clientes.</p>
 
-<p>Mas é só isto, não precisa de mais nada para funcionar? Não precisa, é um processo realmente bem simples, o Zoho é bem intuitivo, fácil de configurar e o melhor de graça! =)</p>
-</p>
+<p>Se for explorar os motivos, cada um pode citar diferente, mas partindo do princípio que é necessário abrir em uma nova aba, como fazer isto de maneira segura?</p>
+
+<p><a href="/static/evite-ou-proteja-o-uso-do-target-blank-em-seus-links-vulnerabilidade-a-vista-cracked/" target="_BLANK" rel="noopener noreferrer">Clique neste link</a>, ele irá abrir a mesma página anterior em uma nova aba. Agora o comportamento será diferente pois está usando o <code>rel=”noopener”</code>, nada irá acontecer nesta página aqui depois de clicar no link e retornar para cá.</p>
+
+<p>Ao abrir um link externo você diz para ele quem é você, desta forma ele consegue mapear aqueles que &ldquo;apontam&rdquo; para ele e vir até a origem. Assim alguém poderia fazer uma página maliciosa com algum conteúdo que todos queiram fazer um link (memes por exemplo), depois procurar todos que a referenciaram e fazer a injeção que desejar. Para evitar que um link externo saiba a origem, basta usar a tag <code>rel=&ldquo;noreferrer&rdquo;</code>.</p>
+
+<p>Resumo da obra, precisa abrir um link externo ao seu site em uma nova aba de forma segura? Faça da seguinte forma:</p>
+
+<p><code>&lt; a href=&ldquo;url&rdquo; target=&rdquo;_BLANK&rdquo; rel=&ldquo;noopener&rdquo; rel=&ldquo;noreferrer&rdquo;&gt; link externo &lt; /a &gt;  </code></p>
+
+<p>ou</p>
+
+<p><code>&lt; a href=&ldquo;url&rdquo; target=&rdquo;_BLANK&rdquo; rel=&ldquo;noopener noreferrer&rdquo;&gt; link externo &lt; /a &gt;  </code></p>
+
+<p>Isto não impacta diretamente o SEO do site, então pode ser adotado como medida de segurança sem efeitos colaterais. Quando puder evitar abrir um link externo em uma nova aba, prefira esta abordagem.</p>
+
+<p>Mais seguro do que colocar grades em uma janela, é não ter a janela. Mas se realmente precisas de uma janela, não esqueça das grades. =)</p></p>
                             </div>
                             <div class="addthis_inline_share_toolbox"></div>
                             <div class="addthis_relatedposts_inline"></div>
@@ -263,9 +272,9 @@
             </section>
         </div>
         <div class="container">
-        <div class="row" style="margin-top: 20px;">
+            <div class="row" style="margin-top: 20px;">
                 <div class="col-lg-12 col-xs-12">
-                        <div id="disqus_thread"></div>
+                    <div id="disqus_thread"></div>
                 </div>
             </div>
         </div>

@@ -6,17 +6,26 @@
     <description>Recent content in Posts on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Fri, 30 Nov 2018 12:34:41 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 20 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/pt/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Como criar e-mails personalizando usando seu DNS de graça</title>
-      <link>/pt/posts/how-to-create-custom-emails-using-dns-for-free/</link>
-      <pubDate>Fri, 30 Nov 2018 12:34:41 -0500</pubDate>
+      <title>Evite ou proteja o uso do target=&#39;_blank&#39; em seus links. Vulnerabilidade a vista!</title>
+      <link>/pt/posts/evite-ou-proteja-o-uso-do-target-blank-em-seus-links-vulnerabilidade-a-vista/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/pt/posts/how-to-create-custom-emails-using-dns-for-free/</guid>
+      <guid>/pt/posts/evite-ou-proteja-o-uso-do-target-blank-em-seus-links-vulnerabilidade-a-vista/</guid>
+      <description>&lt;p&gt;Ainda é comum ser usado o atributo &lt;code&gt;target=&amp;rdquo;_BLANK&amp;rdquo;&lt;/code&gt; em um link com o objetivo de abrir ele em uma nova aba no navegador, gerando uma vulnerabilidade. Mas e se precisamos deste atributo, como usá-lo de forma segura? Vamos falar de &lt;code&gt;rel=&amp;ldquo;noopener&amp;rdquo;&lt;/code&gt; e &lt;code&gt;rel=&amp;ldquo;noreferrer&amp;rdquo;&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Como criar e-mails personalizados usando seu DNS de graça</title>
+      <link>/pt/posts/como-criar-e-mails-personalizados-usando-seu-dns-de-graca/</link>
+      <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/pt/posts/como-criar-e-mails-personalizados-usando-seu-dns-de-graca/</guid>
       <description>E aí, registrou seu domínio, hospedou em algum lugar de graça como GitHub Pages, Netlify, Firebase, Heroku ou Back4app e agora gostaria de ter um e-mail com seunome@seudominio sem custo? Se você tem um negócio, ter um e-mail contato@seudominio é excencial.
 É bem fácil e rápido de fazer e você só precisa ter acesso a edição do seu DNS! O legal é que funciona muito bem com o registro.br também! Bora para o tutorial usando o Zoho Mail!</description>
     </item>
@@ -24,7 +33,7 @@
     <item>
       <title>Como estudar inglês do zero economizando</title>
       <link>/pt/posts/como-estudar-ingles-do-zero-economizando/</link>
-      <pubDate>Sat, 17 Nov 2018 12:34:41 -0500</pubDate>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/pt/posts/como-estudar-ingles-do-zero-economizando/</guid>
       <description>O idioma inglês é fundamental para todo profissional de tecnologia. Como começar a desenvolver esta habilidade gastando pouco?

@@ -3,12 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts/how-to-create-custom-emails-using-dns-for-free/</loc>
-    <lastmod>2018-11-30T12:34:41-05:00</lastmod>
+    <loc>/posts/avoid-or-protect-the-use-of-target-blank-in-your-links/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/posts/how-to-create-custom-emails-using-dns-for-free/"
+                href="/pt/posts/evite-ou-proteja-o-uso-do-target-blank-em-seus-links-vulnerabilidade-a-vista/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/avoid-or-protect-the-use-of-target-blank-in-your-links/"
+                />
+  </url>
+  
+  <url>
+    <loc>/posts/how-to-create-custom-emails-using-dns-for-free/</loc>
+    <lastmod>2018-11-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/posts/como-criar-e-mails-personalizados-usando-seu-dns-de-graca/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -19,7 +34,7 @@
   
   <url>
     <loc>/posts/how-to-improve-your-english-from-scratch-saving-your-money/</loc>
-    <lastmod>2018-11-17T12:34:41-05:00</lastmod>
+    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -47,6 +62,22 @@
   </url>
   
   <url>
+    <loc>/static/avoid-or-protect-the-use-of-target-blank-in-your-links-cracked/</loc>
+  </url>
+  
+  <url>
+    <loc>/static/avoid-or-protect-the-use-of-target-blank-in-your-links-go-back/</loc>
+  </url>
+  
+  <url>
+    <loc>/static/evite-ou-proteja-o-uso-do-target-blank-em-seus-links-vulnerabilidade-a-vista-cracked/</loc>
+  </url>
+  
+  <url>
+    <loc>/static/evite-ou-proteja-o-uso-do-target-blank-em-seus-links-vulnerabilidade-a-vista-retornar/</loc>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -63,7 +94,7 @@
   
   <url>
     <loc>/categories/culture/</loc>
-    <lastmod>2018-11-17T12:34:41-05:00</lastmod>
+    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -79,7 +110,7 @@
   
   <url>
     <loc>/tags/email/</loc>
-    <lastmod>2018-11-30T12:34:41-05:00</lastmod>
+    <lastmod>2018-11-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -95,7 +126,7 @@
   
   <url>
     <loc>/tags/english/</loc>
-    <lastmod>2018-11-17T12:34:41-05:00</lastmod>
+    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -110,8 +141,14 @@
   </url>
   
   <url>
+    <loc>/tags/html/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/life-code/</loc>
-    <lastmod>2018-11-30T12:34:41-05:00</lastmod>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -127,7 +164,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-11-30T12:34:41-05:00</lastmod>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -143,7 +180,7 @@
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2018-11-30T12:34:41-05:00</lastmod>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -158,8 +195,19 @@
   </url>
   
   <url>
+    <loc>/tags/security/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/static/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
-    <lastmod>2018-11-30T12:34:41-05:00</lastmod>
+    <lastmod>2018-11-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -175,7 +223,7 @@
   
   <url>
     <loc>/tags/tips/</loc>
-    <lastmod>2018-11-30T12:34:41-05:00</lastmod>
+    <lastmod>2018-11-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -187,6 +235,12 @@
                 hreflang="en"
                 href="/tags/tips/"
                 />
+  </url>
+  
+  <url>
+    <loc>/tags/vulnerability/</loc>
+    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
