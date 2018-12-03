@@ -219,7 +219,7 @@
 
 <p>Existe um comportamento bem curioso quando usamos <code>target=&rdquo;_BLANK&rdquo;</code> em links, basicamente o link que abriu consegue ter acesso ao <code>window.opener.location</code>, ou seja, permite alterar a url de quem chamou ele.</p>
 
-<p>Vamos ver uma aplicação simples desta vulnerabilidade, <a href="/static/evite-ou-proteja-o-uso-do-target-blank-em-seus-links-vulnerabilidade-a-vista-cracked/" target="_BLANK">clique aqui para abrir uma nova aba</a>. Fique tranquilo, vamos fazer um teste controlado, você não vai ter problemas. Dê uma olhada no código fonte da página que abrir e volte aqui =)</p>
+<p>Vamos ver uma aplicação simples desta vulnerabilidade, <a href="/static/evite-ou-proteja-o-uso-do-target-blank-em-seus-links-vulnerabilidade-a-vista-cracked/" target="_BLANK">clique aqui para abrir uma nova aba</a>. Fique tranquilo, vamos fazer um teste controlado, você não vai ter problemas. Dê uma olhada no código fonte da página que abrir e volte aqui. 😆</p>
 
 <p>O que achou do resultado? Um site malicioso poderia substituir o site original por um falso, solicitando as credenciais novamente, por exemplo. Isto apenas porque usou o <code>target=&rdquo;_BLANK&rdquo;</code>.</p>
 
@@ -227,21 +227,17 @@
 
 <p>Se for explorar os motivos, cada um pode citar diferente, mas partindo do princípio que é necessário abrir em uma nova aba, como fazer isto de maneira segura?</p>
 
-<p><a href="/static/evite-ou-proteja-o-uso-do-target-blank-em-seus-links-vulnerabilidade-a-vista-cracked/" target="_BLANK" rel="noopener noreferrer">Clique neste link</a>, ele irá abrir a mesma página anterior em uma nova aba. Agora o comportamento será diferente pois está usando o <code>rel=”noopener”</code>, nada irá acontecer nesta página aqui depois de clicar no link e retornar para cá.</p>
+<p><a href="/static/evite-ou-proteja-o-uso-do-target-blank-em-seus-links-vulnerabilidade-a-vista-cracked/" target="_BLANK" rel="noopener noreferrer">Clique neste link</a>, ele irá abrir a mesma página anterior em uma nova aba. Agora o comportamento será diferente pois está usando o <code>rel=&ldquo;noopener&rdquo;</code>, nada irá acontecer nesta página aqui depois de clicar no link e retornar para cá.</p>
 
 <p>Ao abrir um link externo você diz para ele quem é você, desta forma ele consegue mapear aqueles que &ldquo;apontam&rdquo; para ele e vir até a origem. Assim alguém poderia fazer uma página maliciosa com algum conteúdo que todos queiram fazer um link (memes por exemplo), depois procurar todos que a referenciaram e fazer a injeção que desejar. Para evitar que um link externo saiba a origem, basta usar a tag <code>rel=&ldquo;noreferrer&rdquo;</code>.</p>
 
 <p>Resumo da obra, precisa abrir um link externo ao seu site em uma nova aba de forma segura? Faça da seguinte forma:</p>
 
-<p><code>&lt; a href=&ldquo;url&rdquo; target=&rdquo;_BLANK&rdquo; rel=&ldquo;noopener&rdquo; rel=&ldquo;noreferrer&rdquo;&gt; link externo &lt; /a &gt;  </code></p>
-
-<p>ou</p>
-
 <p><code>&lt; a href=&ldquo;url&rdquo; target=&rdquo;_BLANK&rdquo; rel=&ldquo;noopener noreferrer&rdquo;&gt; link externo &lt; /a &gt;  </code></p>
 
 <p>Isto não impacta diretamente o SEO do site, então pode ser adotado como medida de segurança sem efeitos colaterais. Quando puder evitar abrir um link externo em uma nova aba, prefira esta abordagem.</p>
 
-<p>Mais seguro do que colocar grades em uma janela, é não ter a janela. Mas se realmente precisas de uma janela, não esqueça das grades. =)</p></p>
+<p>Mais seguro do que colocar grades em uma janela, é não ter a janela. Mas se realmente precisas de uma janela, não esqueça das grades. 😎</p></p>
                             </div>
                             <div class="addthis_inline_share_toolbox"></div>
                             <div class="addthis_relatedposts_inline"></div>
