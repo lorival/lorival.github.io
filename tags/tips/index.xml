@@ -1,25 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tips on Lorival Smolski Chapuis</title>
+    <title>tips on Lorival Smolski Chapuis</title>
     <link>/tags/tips/</link>
-    <description>Recent content in Tips on Lorival Smolski Chapuis</description>
+    <description>Recent content in tips on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Sat, 10 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/tips/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>How to create custom emails using DNS for free</title>
-      <link>/posts/how-to-create-custom-emails-using-dns-for-free/</link>
-      <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/how-to-create-custom-emails-using-dns-for-free/</guid>
-      <description>You registered your domain, it has been hosted somewhere for free as GitHub Pages, Netlify, Firebase, Heroku ou Back4app and now would like to have an email with your name@yourdomain without cost? If you have a business, having an email like contact@yourdomain is excential.
-It is very easy and quick to do this and you only need to have access to edit the DNS of your domain! Let&amp;rsquo;s go to the tutorial using the Zoho Mail!</description>
-    </item>
     
     <item>
       <title>How to improve your English from scratch saving your money</title>

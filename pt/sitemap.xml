@@ -1,34 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/pt/posts/evite-ou-proteja-o-uso-do-target-blank-em-seus-links-vulnerabilidade-a-vista/</loc>
-    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
+    <loc>/pt/categories/</loc>
+    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/posts/avoid-or-protect-the-use-of-target-blank-in-your-links/"
+                href="/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/posts/evite-ou-proteja-o-uso-do-target-blank-em-seus-links-vulnerabilidade-a-vista/"
-                />
-  </url>
-  
-  <url>
-    <loc>/pt/posts/como-criar-e-mails-personalizados-usando-seu-dns-de-graca/</loc>
-    <lastmod>2018-11-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/posts/how-to-create-custom-emails-using-dns-for-free/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/posts/como-criar-e-mails-personalizados-usando-seu-dns-de-graca/"
+                href="/pt/categories/"
                 />
   </url>
   
@@ -48,38 +33,8 @@
   </url>
   
   <url>
-    <loc>/pt/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/about/"
-                />
-  </url>
-  
-  <url>
-    <loc>/pt/categories/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/categories/"
-                />
-  </url>
-  
-  <url>
     <loc>/pt/categories/culture/</loc>
     <lastmod>2018-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -93,25 +48,8 @@
   </url>
   
   <url>
-    <loc>/pt/tags/email/</loc>
-    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/email/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/tags/email/"
-                />
-  </url>
-  
-  <url>
     <loc>/pt/tags/english/</loc>
     <lastmod>2018-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -125,25 +63,8 @@
   </url>
   
   <url>
-    <loc>/pt/categories/life-code/</loc>
-    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/life-code/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/categories/life-code/"
-                />
-  </url>
-  
-  <url>
     <loc>/pt/</loc>
-    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -158,8 +79,7 @@
   
   <url>
     <loc>/pt/posts/</loc>
-    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -174,8 +94,7 @@
   
   <url>
     <loc>/pt/tags/</loc>
-    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -190,8 +109,7 @@
   
   <url>
     <loc>/pt/tags/tips/</loc>
-    <lastmod>2018-11-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -201,6 +119,20 @@
                 rel="alternate"
                 hreflang="pt"
                 href="/pt/tags/tips/"
+                />
+  </url>
+  
+  <url>
+    <loc>/pt/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/about/"
                 />
   </url>
   

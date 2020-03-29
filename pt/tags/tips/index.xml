@@ -1,34 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tips on Lorival Smolski Chapuis</title>
+    <title>tips on Lorival Smolski Chapuis</title>
     <link>/pt/tags/tips/</link>
-    <description>Recent content in Tips on Lorival Smolski Chapuis</description>
+    <description>Recent content in tips on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Tue, 20 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/pt/tags/tips/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Evite ou proteja o uso do target=&#39;_blank&#39; em seus links. Vulnerabilidade a vista!</title>
-      <link>/pt/posts/evite-ou-proteja-o-uso-do-target-blank-em-seus-links-vulnerabilidade-a-vista/</link>
-      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/pt/posts/evite-ou-proteja-o-uso-do-target-blank-em-seus-links-vulnerabilidade-a-vista/</guid>
-      <description>&lt;p&gt;Ainda é comum ser usado o atributo &lt;code&gt;target=&amp;rdquo;_BLANK&amp;rdquo;&lt;/code&gt; em um link com o objetivo de abrir ele em uma nova aba no navegador, gerando uma vulnerabilidade. Mas e se precisamos deste atributo, como usá-lo de forma segura? Vamos falar de &lt;code&gt;rel=&amp;ldquo;noopener&amp;rdquo;&lt;/code&gt; e &lt;code&gt;rel=&amp;ldquo;noreferrer&amp;rdquo;&lt;/code&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Como criar e-mails personalizados usando seu DNS de graça</title>
-      <link>/pt/posts/como-criar-e-mails-personalizados-usando-seu-dns-de-graca/</link>
-      <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/pt/posts/como-criar-e-mails-personalizados-usando-seu-dns-de-graca/</guid>
-      <description>E aí, registrou seu domínio, hospedou em algum lugar de graça como GitHub Pages, Netlify, Firebase, Heroku ou Back4app e agora gostaria de ter um e-mail com seunome@seudominio sem custo? Se você tem um negócio, ter um e-mail contato@seudominio é excencial.
-É bem fácil e rápido de fazer e você só precisa ter acesso a edição do seu DNS! O legal é que funciona muito bem com o registro.br também! Bora para o tutorial usando o Zoho Mail!</description>
-    </item>
     
     <item>
       <title>Como estudar inglês do zero economizando</title>

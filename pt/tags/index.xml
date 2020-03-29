@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Lorival Smolski Chapuis</title>
@@ -6,22 +6,13 @@
     <description>Recent content in Tags on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Tue, 20 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/pt/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Email</title>
-      <link>/pt/tags/email/</link>
-      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/pt/tags/email/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>English</title>
+      <title>english</title>
       <link>/pt/tags/english/</link>
       <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -30,9 +21,9 @@
     </item>
     
     <item>
-      <title>Tips</title>
+      <title>tips</title>
       <link>/pt/tags/tips/</link>
-      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/pt/tags/tips/</guid>
       <description></description>
