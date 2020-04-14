@@ -3,8 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/about/"
+                />
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
-    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -18,38 +31,7 @@
   </url>
   
   <url>
-    <loc>/categories/culture/</loc>
-    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/categories/culture/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/culture/"
-                />
-  </url>
-  
-  <url>
-    <loc>/tags/english/</loc>
-    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/tags/english/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/english/"
-                />
-  </url>
-  
-  <url>
     <loc>/</loc>
-    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -63,23 +45,7 @@
   </url>
   
   <url>
-    <loc>/posts/</loc>
-    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/posts/"
-                />
-  </url>
-  
-  <url>
     <loc>/tags/</loc>
-    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -89,50 +55,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>/tags/tips/</loc>
-    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/tags/tips/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/tips/"
-                />
-  </url>
-  
-  <url>
-    <loc>/posts/welcome-to-full-stack-hacker/</loc>
-    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/posts/bemvindo-ao-full-stack-hacker/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/posts/welcome-to-full-stack-hacker/"
-                />
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/about/"
                 />
   </url>
   

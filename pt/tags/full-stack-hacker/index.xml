@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Lorival Smolski Chapuis</title>
-    <link>/pt/posts/</link>
-    <description>Recent content in Posts on Lorival Smolski Chapuis</description>
+    <title>full stack hacker on Lorival Smolski Chapuis</title>
+    <link>/pt/tags/full-stack-hacker/</link>
+    <description>Recent content in full stack hacker on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/pt/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/pt/tags/full-stack-hacker/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

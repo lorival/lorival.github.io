@@ -6,18 +6,19 @@
     <description>Recent content in Culture on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Sun, 05 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/pt/categories/culture/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Bemvindo ao Full Stack Hacker</title>
-      <link>/pt/posts/bemvindo-ao-full-stack-hacker/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      <title>Bem-vindo ao Full Stack Hacker</title>
+      <link>/pt/posts/bem-vindo-ao-full-stack-hacker/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/pt/posts/bemvindo-ao-full-stack-hacker/</guid>
-      <description>Bemvindo 23</description>
+      <guid>/pt/posts/bem-vindo-ao-full-stack-hacker/</guid>
+      <description>E aí hacker, espero que você estejas muito bem! Eu gostaria de dar-lhe as boas vindas a este pequeno espaço onde irei compartilhar um pouco de minhas experiências e interesses em diversas áreas relacionados à desenvolvimento de software, seja muito bem vindo ao Full Stack Hacker.
+Além das boas vindas, este post tem como objetivo explorar um pouco quais tópicos eu gostaria de tratar em 2020 e como eu gostaria de apresentá-los a você.</description>
     </item>
     
   </channel>
