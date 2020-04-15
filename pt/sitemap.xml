@@ -89,6 +89,16 @@
   
   <url>
     <loc>/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/about/"
+                />
   </url>
   
 </urlset>
