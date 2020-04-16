@@ -995,7 +995,9 @@ main {
   @media (max-width: 575px) {
     .aside-blocks aside {
       width: 100%;
-      margin-right: 0; } }
+      margin-right: 0; } 
+      .aside-blocks aside:nth-child(odd) {
+        margin-right: 0px; } }
   .aside-blocks aside .aside-title {
     background: #fafcfc;
     font-size: 18px;
