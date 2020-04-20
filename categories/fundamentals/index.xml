@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lorival Smolski Chapuis</title>
-    <link>/</link>
-    <description>Recent content on Lorival Smolski Chapuis</description>
+    <title>Fundamentals on Lorival Smolski Chapuis</title>
+    <link>/categories/fundamentals/</link>
+    <description>Recent content in Fundamentals on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/fundamentals/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <description>Olá hacker, como tem sua sido semana? Espero que muito bem. :)
 Como primeiro post eu gostaria de tratar sobre um dos fundamentos da computação, os algoritmos. Você sabe como escolher uma carambola? E quem escreveu o primeiro algoritmo para um computador? Você sabe rapidamente como diferenciar um algoritmo de um programa de computador? Então borá falar deles, os algoritmos.
 Muitas vezes eu já ouvi misturar a definição de algoritmo, eu já ouvi que são programas de computador, que são conversores de dados de entrada em dados de saída ou mesmo que algoritmos são os responsáveis por resolver problemas.</description>
-    </item>
-    
-    <item>
-      <title>Bem-vindo ao Full Stack Hacker</title>
-      <link>/posts/bem-vindo-ao-full-stack-hacker/</link>
-      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/bem-vindo-ao-full-stack-hacker/</guid>
-      <description>E aí hacker, espero que você esteja muito bem! Eu gostaria de dar-lhe as boas vindas a este pequeno espaço onde irei compartilhar um pouco de minhas experiências e interesses em diversas áreas relacionados à desenvolvimento de software, seja muito bem vindo ao Full Stack Hacker.
-Além das boas vindas, este post tem como objetivo explorar um pouco quais tópicos eu gostaria de tratar em 2020 e como eu gostaria de apresentá-los a você.</description>
     </item>
     
   </channel>
