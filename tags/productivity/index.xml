@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>junior on Lorival Smolski Chapuis</title>
-    <link>/tags/junior/</link>
-    <description>Recent content in junior on Lorival Smolski Chapuis</description>
+    <title>productivity on Lorival Smolski Chapuis</title>
+    <link>/tags/productivity/</link>
+    <description>Recent content in productivity on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <lastBuildDate>Thu, 30 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/junior/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       
       <guid>/posts/mais-foco-em-tarefas-com-pomodoro/</guid>
       <description>&lt;p&gt;E aí hacker, Aproveitou bem o fim do ano? Eu me diverti muito, espero que você também. Para começar bem o ano eu gostaria de compartilhar com você como eu uso uma simples técnica de gerenciamento do tempo para ajudar a otimizar meu dia. Vamos falar dele, do famoso, do ridiculamente simples, do vermelhinho, do usado por 3 dias seguidos e abandonado depois, do não me encoste que estou focado, do não me faça perder o meu, do Pomodoro, a técnica.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>O primeiro algoritmo</title>
-      <link>/posts/o-primeiro-algoritmo/</link>
-      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/o-primeiro-algoritmo/</guid>
-      <description>&lt;p&gt;Olá hacker, como foi sua sido semana? Espero que muito bem. :)&lt;/p&gt;
-&lt;p&gt;Como primeiro post eu gostaria de tratar sobre um dos fundamentos da computação. Você sabe como escolher uma carambola? E quem escreveu o primeiro algoritmo para um computador? Você sabe rapidamente diferenciar um algoritmo de um programa de computador? Então bora falar deles, os algoritmos.&lt;/p&gt;</description>
     </item>
     
   </channel>
