@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fundamentals on Lorival Smolski Chapuis</title>
-    <link>/categories/fundamentals/</link>
-    <description>Recent content in Fundamentals on Lorival Smolski Chapuis</description>
+    <title>career on Lorival Smolski Chapuis</title>
+    <link>/tags/career/</link>
+    <description>Recent content in career on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <lastBuildDate>Mon, 10 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/fundamentals/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/career/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       
       <guid>/posts/programar-por-onde-come%C3%A7ar/</guid>
       <description>&lt;p&gt;E aí Hacker, como você está? Espero que muitíssimo bem. Sabe, eventualmente algum amigo ou conhecido me pergunta quais livros, cursos ou dicas eu poderia dar para quem quer iniciar na área de desenvolvimento de software e geralmente vem seguido da questão de fazer ou não um curso superior na área. Neste poste eu gostaria de falar um pouco sobre como eu vejo este assunto e também vai servir de gancho para quando eu falar sobre como eu faço para estudar um novo assunto relacionado a TI.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>O primeiro algoritmo</title>
-      <link>/posts/o-primeiro-algoritmo/</link>
-      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/o-primeiro-algoritmo/</guid>
-      <description>&lt;p&gt;Olá hacker, como foi sua semana? Espero que muito bem. :)&lt;/p&gt;
-&lt;p&gt;Como primeiro post eu gostaria de tratar sobre um dos fundamentos da computação. Você sabe como escolher uma carambola? E quem escreveu o primeiro algoritmo para um computador? Você sabe rapidamente diferenciar um algoritmo de um programa de computador? Então bora falar deles, os algoritmos.&lt;/p&gt;</description>
     </item>
     
   </channel>

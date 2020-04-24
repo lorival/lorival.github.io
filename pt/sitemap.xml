@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tags/career/</loc>
+    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -18,7 +23,7 @@
   </url>
   
   <url>
-    <loc>/categories/culture/</loc>
+    <loc>/categories/fundamentals/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,18 +48,13 @@
   </url>
   
   <url>
-    <loc>/posts/mais-foco-em-tarefas-com-pomodoro/</loc>
-    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/productivity/</loc>
-    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+    <loc>/posts/programar-por-onde-come%C3%A7ar/</loc>
+    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -70,6 +70,21 @@
                 hreflang="pt"
                 href="/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>/categories/culture/</loc>
+    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/mais-foco-em-tarefas-com-pomodoro/</loc>
+    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/productivity/</loc>
+    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -89,11 +104,6 @@
   
   <url>
     <loc>/tags/algorithm/</loc>
-    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/fundamentals/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
