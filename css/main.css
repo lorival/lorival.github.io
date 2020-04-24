@@ -186,7 +186,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 /*-------------------------------------- 1.2 Buttons & Links --------------------------------------*/
 a {
   color: #212121;
-  text-decoration: underline;
   transition: all 0.2s ease-in-out; }
   a:hover {
     text-decoration: underline;
