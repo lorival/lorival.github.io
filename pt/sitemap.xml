@@ -125,4 +125,8 @@
     <loc>/admin/</loc>
   </url>
   
+  <url>
+    <loc>/podcast/</loc>
+  </url>
+  
 </urlset>
