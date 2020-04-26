@@ -3,8 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tags/career/</loc>
-    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/"
+                />
+  </url>
+  
+  <url>
+    <loc>/personas/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/personas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/personas/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/algorithm/</loc>
+    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,28 +63,13 @@
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/posts/o-primeiro-algoritmo/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/"
-                />
   </url>
   
   <url>
     <loc>/posts/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/programar-por-onde-come%C3%A7ar/</loc>
-    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -73,47 +88,12 @@
   </url>
   
   <url>
-    <loc>/categories/culture/</loc>
-    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/mais-foco-em-tarefas-com-pomodoro/</loc>
-    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/productivity/</loc>
-    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/personas/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/personas/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/personas/"
-                />
-  </url>
-  
-  <url>
-    <loc>/tags/algorithm/</loc>
-    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/o-primeiro-algoritmo/</loc>
-    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/bem-vindo-ao-full-stack-hacker/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/culture/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   

@@ -6,28 +6,10 @@
     <description>Recent content in junior on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Mon, 10 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/junior/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Programar, por onde começar?</title>
-      <link>/posts/programar-por-onde-come%C3%A7ar/</link>
-      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/programar-por-onde-come%C3%A7ar/</guid>
-      <description>&lt;p&gt;E aí Hacker, como você está? Espero que muitíssimo bem. Sabe, eventualmente algum amigo ou conhecido me pergunta quais livros, cursos ou dicas eu poderia dar para quem quer iniciar na área de desenvolvimento de software e geralmente vem seguido da questão de fazer ou não um curso superior na área. Neste poste eu gostaria de falar um pouco sobre como eu vejo este assunto e também vai servir de gancho para quando eu falar sobre como eu faço para estudar um novo assunto relacionado a TI.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Mais foco em tarefas com Pomodoro</title>
-      <link>/posts/mais-foco-em-tarefas-com-pomodoro/</link>
-      <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/mais-foco-em-tarefas-com-pomodoro/</guid>
-      <description>&lt;p&gt;E aí hacker, Aproveitou bem o seu fim do ano? Eu me diverti muito, espero que você também. Para começar bem o ano eu gostaria de compartilhar com você como eu uso uma simples técnica de gerenciamento do tempo para ajudar a otimizar meu dia tanto para estudar como para trabalhar. Vamos falar dele, do famoso, do ridiculamente simples, do vermelhinho, do usado por 3 dias seguidos e abandonado depois pelos empolgados, do não me encoste que estou focado agora, do não me faça perder o meu, do Pomodoro, a técnica.&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>O primeiro algoritmo</title>
@@ -35,7 +17,15 @@
       <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/o-primeiro-algoritmo/</guid>
-      <description>&lt;p&gt;Olá hacker, como foi sua semana? Espero que muito bem. :)&lt;/p&gt;
+      <description>&lt;iframe 
+    title=&#34;filename.mp3&#34;
+    height=&#34;122&#34; width=&#34;100%&#34; 
+    style=&#34;border: none;&#34; scrolling=&#34;no&#34; data-name=&#34;pb-iframe-player&#34; 
+    src=&#34;https://www.podbean.com/media/player/qussk-da7320?from=yiiadmin&amp;amp;download=1&amp;amp;version=1&amp;amp;skin=1&amp;amp;btn-skin=107&amp;amp;auto=0&amp;amp;download=1&amp;amp;pbad=1&#34;&gt;
+&lt;/iframe&gt;
+
+
+&lt;p&gt;Olá hacker, como foi sua semana? Espero que muito bem. :)&lt;/p&gt;
 &lt;p&gt;Como primeiro post eu gostaria de tratar sobre um dos fundamentos da computação. Você sabe como escolher uma carambola? E quem escreveu o primeiro algoritmo para um computador? Você sabe rapidamente diferenciar um algoritmo de um programa de computador? Então bora falar deles, os algoritmos.&lt;/p&gt;</description>
     </item>
     
