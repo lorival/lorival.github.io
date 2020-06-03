@@ -6,10 +6,28 @@
     <description>Recent content in Posts on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Thu, 30 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Como vim para Portugal</title>
+      <link>/posts/como-vim-para-portugal/</link>
+      <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/como-vim-para-portugal/</guid>
+      <description>&lt;iframe 
+    title=&#34;filename.mp3&#34;
+    height=&#34;122&#34; width=&#34;100%&#34; 
+    style=&#34;border: none;&#34; scrolling=&#34;no&#34; data-name=&#34;pb-iframe-player&#34; 
+    src=&#34;https://www.podbean.com/media/player/ppzuk-dea7f5?from=yiiadmin&amp;amp;download=1&amp;amp;version=1&amp;amp;skin=1&amp;amp;btn-skin=107&amp;amp;auto=0&amp;amp;download=1&amp;amp;pbad=1&#34;&gt;
+&lt;/iframe&gt;
+
+
+&lt;p&gt;Muito bom dia, muito boa tarde, muito boa noite hacker! lebeuza?&lt;/p&gt;
+&lt;p&gt;Hoje eu gostaria de compartilhar com você, um pouco de como foi minha vinda para Portugal e alguns desafios que tive no percurso. Eu farei outros posts com mais detalhes sobre alguns pontos e com dicas específicas que penso serem importantes para quem pensa em vir para cá também, mas hoje a ideia é fazer um apanhado geral. :)&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Mais foco em tarefas com Pomodoro</title>
