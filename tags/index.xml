@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Lorival Smolski Chapuis</title>
@@ -6,46 +6,10 @@
     <description>Recent content in Tags on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Thu, 20 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>it market</title>
-      <link>/tags/it-market/</link>
-      <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/it-market/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>me</title>
-      <link>/tags/me/</link>
-      <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/me/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>junior</title>
-      <link>/tags/junior/</link>
-      <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/junior/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>productivity</title>
-      <link>/tags/productivity/</link>
-      <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/productivity/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Algorithm</title>
@@ -57,11 +21,47 @@
     </item>
     
     <item>
-      <title>full stack hacker</title>
+      <title>Full Stack Hacker</title>
       <link>/tags/full-stack-hacker/</link>
-      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/full-stack-hacker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>It Market</title>
+      <link>/tags/it-market/</link>
+      <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/it-market/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Junior</title>
+      <link>/tags/junior/</link>
+      <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/junior/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Me</title>
+      <link>/tags/me/</link>
+      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/me/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Productivity</title>
+      <link>/tags/productivity/</link>
+      <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/productivity/</guid>
       <description></description>
     </item>
     

@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/en/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <loc>/en/posts/welcome-to-full-stack-hacker/</loc>
+    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/"
+                href="/posts/bem-vindo-ao-full-stack-hacker/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/"
+                href="/en/posts/welcome-to-full-stack-hacker/"
                 />
   </url>
   
@@ -48,6 +48,7 @@
   
   <url>
     <loc>/en/categories/</loc>
+    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -61,7 +62,89 @@
   </url>
   
   <url>
+    <loc>/en/categories/culture/</loc>
+    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/categories/culture/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/culture/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/full-stack-hacker/</loc>
+    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/tags/full-stack-hacker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/full-stack-hacker/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/</loc>
+    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/me/</loc>
+    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/tags/me/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/me/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/posts/</loc>
+    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/"
+                />
+  </url>
+  
+  <url>
     <loc>/en/tags/</loc>
+    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Culture on Lorival Smolski Chapuis</title>
@@ -6,17 +6,26 @@
     <description>Recent content in Culture on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Thu, 20 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/culture/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Bem-vindo ao Full Stack Hacker</title>
+      <link>/posts/bem-vindo-ao-full-stack-hacker/</link>
+      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/bem-vindo-ao-full-stack-hacker/</guid>
+      <description>&lt;p&gt;E aí hacker, espero que você esteja muito bem! Eu gostaria de dar-lhe as boas vindas a este pequeno espaço onde irei compartilhar um pouco de minhas experiências e interesses em diversas áreas relacionados à desenvolvimento de software, seja muito bem vindo ao &lt;strong&gt;Full Stack Hacker&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Como vim para Portugal</title>
-      <link>/posts/como-vim-para-portugal/</link>
+      <link>/old/00004-go-out-brazil/</link>
       <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/como-vim-para-portugal/</guid>
+      <guid>/old/00004-go-out-brazil/</guid>
       <description>&lt;iframe 
     title=&#34;filename.mp3&#34;
     height=&#34;122&#34; width=&#34;100%&#34; 
@@ -25,16 +34,18 @@
 &lt;/iframe&gt;
 
 
+
 &lt;p&gt;Muito bom dia, muito boa tarde, muito boa noite hacker! lebeuza?&lt;/p&gt;
+
 &lt;p&gt;Hoje eu gostaria de compartilhar com você, um pouco de como foi minha vinda para Portugal e alguns desafios que tive no percurso. Eu farei outros posts com mais detalhes sobre alguns pontos e com dicas específicas que penso serem importantes para quem pensa em vir para cá também, mas hoje a ideia é fazer um apanhado geral. :)&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Mais foco em tarefas com Pomodoro</title>
-      <link>/posts/mais-foco-em-tarefas-com-pomodoro/</link>
+      <link>/old/00003-pomodoro/</link>
       <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/mais-foco-em-tarefas-com-pomodoro/</guid>
+      <guid>/old/00003-pomodoro/</guid>
       <description>&lt;iframe 
     title=&#34;filename.mp3&#34;
     height=&#34;122&#34; width=&#34;100%&#34; 
@@ -43,22 +54,25 @@
 &lt;/iframe&gt;
 
 
+
 &lt;p&gt;E aí hacker, Aproveitou bem o seu fim do ano? Eu me diverti muito, espero que você também.&lt;/p&gt;
+
 &lt;p&gt;Para começar bem o ano eu gostaria de compartilhar com você como eu uso uma simples técnica de gerenciamento do tempo para ajudar a otimizar meu dia tanto para estudar como para trabalhar. Vamos falar dele, do famoso, do ridiculamente simples, do vermelhinho, do usado por 3 dias seguidos e abandonado depois pelos empolgados, do não me encoste que estou focado agora, do não me faça perder o meu, do Pomodoro, a técnica.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Bem-vindo ao Full Stack Hacker</title>
-      <link>/posts/bem-vindo-ao-full-stack-hacker/</link>
+      <link>/old/00001-welcome/</link>
       <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/bem-vindo-ao-full-stack-hacker/</guid>
+      <guid>/old/00001-welcome/</guid>
       <description>&lt;iframe 
     title=&#34;filename.mp3&#34;
     height=&#34;122&#34; width=&#34;100%&#34; 
     style=&#34;border: none;&#34; scrolling=&#34;no&#34; data-name=&#34;pb-iframe-player&#34; 
     src=&#34;https://www.podbean.com/media/player/q5wm7-d993e1?from=yiiadmin&amp;amp;download=1&amp;amp;version=1&amp;amp;skin=1&amp;amp;btn-skin=104&amp;amp;auto=0&amp;amp;download=1&amp;amp;pbad=1&#34;&gt;
 &lt;/iframe&gt;
+
 
 
 &lt;p&gt;E aí hacker, espero que você esteja muito bem! Eu gostaria de dar-lhe as boas vindas a este pequeno espaço onde irei compartilhar um pouco de minhas experiências e interesses em diversas áreas relacionados à desenvolvimento de software, seja muito bem vindo ao &lt;strong&gt;Full Stack Hacker&lt;/strong&gt;.&lt;/p&gt;</description>

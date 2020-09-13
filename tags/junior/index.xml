@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>junior on Lorival Smolski Chapuis</title>
+    <title>Junior on Lorival Smolski Chapuis</title>
     <link>/tags/junior/</link>
-    <description>Recent content in junior on Lorival Smolski Chapuis</description>
+    <description>Recent content in Junior on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <lastBuildDate>Thu, 30 Jan 2020 00:00:00 +0000</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Mais foco em tarefas com Pomodoro</title>
-      <link>/posts/mais-foco-em-tarefas-com-pomodoro/</link>
+      <link>/old/00003-pomodoro/</link>
       <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/mais-foco-em-tarefas-com-pomodoro/</guid>
+      <guid>/old/00003-pomodoro/</guid>
       <description>&lt;iframe 
     title=&#34;filename.mp3&#34;
     height=&#34;122&#34; width=&#34;100%&#34; 
@@ -25,16 +25,18 @@
 &lt;/iframe&gt;
 
 
+
 &lt;p&gt;E aí hacker, Aproveitou bem o seu fim do ano? Eu me diverti muito, espero que você também.&lt;/p&gt;
+
 &lt;p&gt;Para começar bem o ano eu gostaria de compartilhar com você como eu uso uma simples técnica de gerenciamento do tempo para ajudar a otimizar meu dia tanto para estudar como para trabalhar. Vamos falar dele, do famoso, do ridiculamente simples, do vermelhinho, do usado por 3 dias seguidos e abandonado depois pelos empolgados, do não me encoste que estou focado agora, do não me faça perder o meu, do Pomodoro, a técnica.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>O primeiro algoritmo</title>
-      <link>/posts/o-primeiro-algoritmo/</link>
+      <link>/old/00002-algorithm/</link>
       <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/o-primeiro-algoritmo/</guid>
+      <guid>/old/00002-algorithm/</guid>
       <description>&lt;iframe 
     title=&#34;filename.mp3&#34;
     height=&#34;122&#34; width=&#34;100%&#34; 
@@ -43,7 +45,9 @@
 &lt;/iframe&gt;
 
 
+
 &lt;p&gt;Olá hacker, como foi sua semana? Espero que muito bem. :)&lt;/p&gt;
+
 &lt;p&gt;Como primeiro post eu gostaria de tratar sobre um dos fundamentos da computação. Você sabe como escolher uma carambola? E quem escreveu o primeiro algoritmo para uma máquina? Você sabe rapidamente diferenciar um algoritmo de um programa de computador? Então bora falar deles, os algoritmos.&lt;/p&gt;</description>
     </item>
     

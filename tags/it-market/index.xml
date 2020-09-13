@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>it market on Lorival Smolski Chapuis</title>
+    <title>It Market on Lorival Smolski Chapuis</title>
     <link>/tags/it-market/</link>
-    <description>Recent content in it market on Lorival Smolski Chapuis</description>
+    <description>Recent content in It Market on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <lastBuildDate>Thu, 20 Feb 2020 00:00:00 +0000</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Como vim para Portugal</title>
-      <link>/posts/como-vim-para-portugal/</link>
+      <link>/old/00004-go-out-brazil/</link>
       <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/como-vim-para-portugal/</guid>
+      <guid>/old/00004-go-out-brazil/</guid>
       <description>&lt;iframe 
     title=&#34;filename.mp3&#34;
     height=&#34;122&#34; width=&#34;100%&#34; 
@@ -25,7 +25,9 @@
 &lt;/iframe&gt;
 
 
+
 &lt;p&gt;Muito bom dia, muito boa tarde, muito boa noite hacker! lebeuza?&lt;/p&gt;
+
 &lt;p&gt;Hoje eu gostaria de compartilhar com você, um pouco de como foi minha vinda para Portugal e alguns desafios que tive no percurso. Eu farei outros posts com mais detalhes sobre alguns pontos e com dicas específicas que penso serem importantes para quem pensa em vir para cá também, mas hoje a ideia é fazer um apanhado geral. :)&lt;/p&gt;</description>
     </item>
     

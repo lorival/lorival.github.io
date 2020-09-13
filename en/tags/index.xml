@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Lorival Smolski Chapuis</title>
@@ -6,9 +6,28 @@
     <description>Recent content in Tags on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
+    <lastBuildDate>Sun, 13 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Full Stack Hacker</title>
+      <link>/en/tags/full-stack-hacker/</link>
+      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/en/tags/full-stack-hacker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Me</title>
+      <link>/en/tags/me/</link>
+      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/en/tags/me/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
