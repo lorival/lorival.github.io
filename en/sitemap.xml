@@ -18,6 +18,21 @@
   </url>
   
   <url>
+    <loc>/en/inspirations/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/inspirations/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/inspirations/"
+                />
+  </url>
+  
+  <url>
     <loc>/en/personas/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
