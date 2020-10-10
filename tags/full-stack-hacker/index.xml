@@ -6,7 +6,7 @@
     <description>Recent content in Full Stack Hacker on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Sun, 13 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/full-stack-hacker/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,28 +14,10 @@
     <item>
       <title>Bem-vindo ao Full Stack Hacker</title>
       <link>/posts/bem-vindo-ao-full-stack-hacker/</link>
-      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/posts/bem-vindo-ao-full-stack-hacker/</guid>
       <description>&lt;p&gt;E aí hacker, espero que você esteja muito bem! Eu gostaria de dar-lhe as boas vindas a este pequeno espaço onde irei compartilhar um pouco de minhas experiências e interesses em diversas áreas relacionados à desenvolvimento de software, seja muito bem vindo ao &lt;strong&gt;Full Stack Hacker&lt;/strong&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Bem-vindo ao Full Stack Hacker</title>
-      <link>/old/00001-welcome/</link>
-      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/old/00001-welcome/</guid>
-      <description>&lt;iframe 
-    title=&#34;filename.mp3&#34;
-    height=&#34;122&#34; width=&#34;100%&#34; 
-    style=&#34;border: none;&#34; scrolling=&#34;no&#34; data-name=&#34;pb-iframe-player&#34; 
-    src=&#34;https://www.podbean.com/media/player/q5wm7-d993e1?from=yiiadmin&amp;amp;download=1&amp;amp;version=1&amp;amp;skin=1&amp;amp;btn-skin=104&amp;amp;auto=0&amp;amp;download=1&amp;amp;pbad=1&#34;&gt;
-&lt;/iframe&gt;
-
-
-
-&lt;p&gt;E aí hacker, espero que você esteja muito bem! Eu gostaria de dar-lhe as boas vindas a este pequeno espaço onde irei compartilhar um pouco de minhas experiências e interesses em diversas áreas relacionados à desenvolvimento de software, seja muito bem vindo ao &lt;strong&gt;Full Stack Hacker&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -6,15 +6,24 @@
     <description>Recent content in Posts on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Sun, 13 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Uma breve história da criptografia - Parte 1 de 3</title>
+      <link>/posts/uma-breve-hist%C3%B3ria-da-criptografia-parte-1-de-3/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/uma-breve-hist%C3%B3ria-da-criptografia-parte-1-de-3/</guid>
+      <description>&lt;p&gt;Atualmente, a história da criptografia é dividida em 3 fases, cada uma com uma determinada característica. Neste post vou explorar a primeira fase, alguns de seus algorítmos e como quebrá-los.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Bem-vindo ao Full Stack Hacker</title>
       <link>/posts/bem-vindo-ao-full-stack-hacker/</link>
-      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/posts/bem-vindo-ao-full-stack-hacker/</guid>
       <description>&lt;p&gt;E aí hacker, espero que você esteja muito bem! Eu gostaria de dar-lhe as boas vindas a este pequeno espaço onde irei compartilhar um pouco de minhas experiências e interesses em diversas áreas relacionados à desenvolvimento de software, seja muito bem vindo ao &lt;strong&gt;Full Stack Hacker&lt;/strong&gt;.&lt;/p&gt;</description>

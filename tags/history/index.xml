@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lorival Smolski Chapuis</title>
-    <link>/</link>
-    <description>Recent content on Lorival Smolski Chapuis</description>
+    <title>History on Lorival Smolski Chapuis</title>
+    <link>/tags/history/</link>
+    <description>Recent content in History on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <lastBuildDate>Fri, 01 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/history/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>/posts/uma-breve-hist%C3%B3ria-da-criptografia-parte-1-de-3/</guid>
       <description>&lt;p&gt;Atualmente, a história da criptografia é dividida em 3 fases, cada uma com uma determinada característica. Neste post vou explorar a primeira fase, alguns de seus algorítmos e como quebrá-los.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Bem-vindo ao Full Stack Hacker</title>
-      <link>/posts/bem-vindo-ao-full-stack-hacker/</link>
-      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/bem-vindo-ao-full-stack-hacker/</guid>
-      <description>&lt;p&gt;E aí hacker, espero que você esteja muito bem! Eu gostaria de dar-lhe as boas vindas a este pequeno espaço onde irei compartilhar um pouco de minhas experiências e interesses em diversas áreas relacionados à desenvolvimento de software, seja muito bem vindo ao &lt;strong&gt;Full Stack Hacker&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

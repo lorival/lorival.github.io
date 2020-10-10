@@ -3,31 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts/bem-vindo-ao-full-stack-hacker/</loc>
-    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/welcome-to-full-stack-hacker/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/posts/bem-vindo-ao-full-stack-hacker/"
-                />
-  </url>
-  
-  <url>
-    <loc>/old/00004-go-out-brazil/</loc>
-    <lastmod>2020-06-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/old/00003-pomodoro/</loc>
-    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/inspirations/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -58,13 +33,23 @@
   </url>
   
   <url>
-    <loc>/old/00002-algorithm/</loc>
-    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+    <loc>/posts/uma-breve-hist%C3%B3ria-da-criptografia-parte-1-de-3/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/old/00001-welcome/</loc>
-    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
+    <loc>/posts/bem-vindo-ao-full-stack-hacker/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/welcome-to-full-stack-hacker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/posts/bem-vindo-ao-full-stack-hacker/"
+                />
   </url>
   
   <url>
@@ -87,7 +72,7 @@
   
   <url>
     <loc>/tags/algorithm/</loc>
-    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -107,24 +92,14 @@
   </url>
   
   <url>
-    <loc>/categories/culture/</loc>
-    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
+    <loc>/tags/cypher/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/categories/culture/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/categories/culture/"
-                />
   </url>
   
   <url>
     <loc>/tags/full-stack-hacker/</loc>
-    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -139,26 +114,14 @@
   </url>
   
   <url>
-    <loc>/categories/fundamentals/</loc>
-    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/it-market/</loc>
-    <lastmod>2020-06-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/junior/</loc>
-    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+    <loc>/tags/history/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -174,7 +137,7 @@
   
   <url>
     <loc>/tags/me/</loc>
-    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -189,18 +152,8 @@
   </url>
   
   <url>
-    <loc>/old/</loc>
-    <lastmod>2020-06-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/old/podcast/</loc>
-  </url>
-  
-  <url>
     <loc>/posts/</loc>
-    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -215,14 +168,14 @@
   </url>
   
   <url>
-    <loc>/tags/productivity/</loc>
-    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+    <loc>/categories/security/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
