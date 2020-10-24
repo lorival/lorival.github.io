@@ -6,10 +6,19 @@
     <description>Recent content in Algorithm on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>O segredo perfeito e a cifra One Time Pad (OTP)</title>
+      <link>/posts/o-segredo-perfeito-e-a-cifra-one-time-pad-otp/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/o-segredo-perfeito-e-a-cifra-one-time-pad-otp/</guid>
+      <description>&lt;p&gt;Hoje gostaria de trazer o primeiro exemplo de criptografia &amp;ldquo;segura&amp;rdquo; que coloquei no blog até o momento, explicar o porque ela é segura e também, como todo herói tem sua criptonita, apresentar suas falhas.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>O que é uma cifra de chave simétrica?</title>
