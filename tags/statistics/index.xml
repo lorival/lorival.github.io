@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Statistics on Lorival Smolski Chapuis</title>
+    <link>/tags/statistics/</link>
+    <description>Recent content in Statistics on Lorival Smolski Chapuis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Números aleatórios gerados por computador são mesmo aleatórios?</title>
+      <link>/posts/n%C3%BAmeros-aleat%C3%B3rios-gerados-por-computador-s%C3%A3o-mesmo-aleat%C3%B3rios/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/n%C3%BAmeros-aleat%C3%B3rios-gerados-por-computador-s%C3%A3o-mesmo-aleat%C3%B3rios/</guid>
+      <description>&lt;p&gt;Eu já participei de um sorteio uma vez que levava em consideração a utilização de um número aleatório gerado por uma função em Pascal, mas será mesmo que este sorteio foi estatisticamente justo? Porque grandes sorteios ainda usam globos ou coisas físicas para efetuar um sorteio ao invés de usar o computador? Você já participou por algo assim ou já parou para pensar quão aleatório são realmente os números gerados por estas funções e quão fácil ou difícil é gerar números aleatórios?&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

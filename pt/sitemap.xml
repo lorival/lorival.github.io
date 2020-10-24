@@ -33,13 +33,23 @@
   </url>
   
   <url>
+    <loc>/posts/o-que-%C3%A9-uma-cifra-de-chave-sim%C3%A9trica/</loc>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/n%C3%BAmeros-aleat%C3%B3rios-gerados-por-computador-s%C3%A3o-mesmo-aleat%C3%B3rios/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/uma-breve-hist%C3%B3ria-da-criptografia-parte-1-de-3/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/bem-vindo-ao-full-stack-hacker/</loc>
-    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -72,7 +82,7 @@
   
   <url>
     <loc>/tags/algorithm/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -93,13 +103,13 @@
   
   <url>
     <loc>/tags/cypher/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/full-stack-hacker/</loc>
-    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -115,13 +125,13 @@
   
   <url>
     <loc>/tags/history/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -137,7 +147,7 @@
   
   <url>
     <loc>/tags/me/</loc>
-    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -153,7 +163,7 @@
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -168,14 +178,26 @@
   </url>
   
   <url>
+    <loc>/tags/prg/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/security/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/statistics/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"

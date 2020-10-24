@@ -1,6 +1,6 @@
 <body class="body-blog-post">
     <!doctype html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
 <meta name="viewport"
@@ -57,7 +57,7 @@
             <div class="col-lg-12">
                 <div class="header-top">
                     <div class="header-top-logo">
-                        <a href="/en/" title="Full Stack Hacker"><img src="/images/home/logo.png" alt="Full Stack Hacker"></a>
+                        <a href="/" title="Full Stack Hacker"><img src="/images/home/logo.png" alt="Full Stack Hacker"></a>
                     </div>
                     <div class="header-top-text">
                         <p><span class="font-italic">“If knowledge can create problems, it is not through ignorance that we can solve them.”</span> Isaac Asimov</p>
@@ -84,15 +84,15 @@
  
     
         <li>
-            <a href="/" title="Home">
-                <span>Home</span>
+            <a href="/pt/" title="Início">
+                <span>Início</span>
             </a>
         </li>
      
  
     
         <li class="dropdown">
-            <a href="#" class="dropdown-toggle" title="Articles">Articles</a>
+            <a href="#" class="dropdown-toggle" title="Artigos">Artigos</a>
             <ul class="dropdown-menu">
                 
     
@@ -102,6 +102,10 @@
     
          
     
+        
+            <li class="nav-elipse-green">
+                <a href="/categories/security" title="Security">Security</a>
+            </li>
          
     
          
@@ -115,25 +119,22 @@
  
     
         <li>
-            <a href="/inspirations/" title="Inspirations">
-                <span>Inspirations</span>
+            <a href="/inspirations/" title="Inspirações">
+                <span>Inspirações</span>
             </a>
         </li>
      
  
     
         <li>
-            <a href="/en/about/" title="About me">
-                <span>About me</span>
+            <a href="/about/" title="Sobre mim">
+                <span>Sobre mim</span>
             </a>
         </li>
      
 
 
 <li style="float: right">
-    
-        <img src="/images/home/br.png" alt="Full Stack Hacker">
-        <a href="/posts/bem-vindo-ao-full-stack-hacker/" title="Ler em Português">Ler em Português</a>
     
 </li>
                     </ul>
@@ -162,6 +163,14 @@
             </li>
             <li>
                 
+                <a href="/posts/n%C3%BAmeros-aleat%C3%B3rios-gerados-por-computador-s%C3%A3o-mesmo-aleat%C3%B3rios/" title="Anterior" style="background-color: rgba(243, 243, 243, 0.95);">
+                    <i class="pe-7s-angle-left"></i>
+                    <div>
+                        <p>Anterior</p>
+                        <h3>Números aleatórios gerados por computador são mesmo aleatórios?</h3>
+                    </div>
+                </a>
+                
             </li>
         </ul>
     </div>
@@ -180,14 +189,16 @@
 
      
 
+    
+        <div style="height: 10px;" class="bkg-green"></div>
      
 
      
 
                                 <div class="articles-header">
-                                    <span><i class="pe-7s-clock" style="font-weight: bold"></i> 1 min read &nbsp;</span>
+                                    <span><i class="pe-7s-clock" style="font-weight: bold"></i> Leia em 3 min &nbsp;</span>
                                     <span><i class="pe-7s-date" style="font-weight: bold"></i> 
-    Sep, 2020
+    mai de 2018
 </span>
                                     
                                     
@@ -197,6 +208,10 @@
 
      
 
+        
+        <span class="articles-header-category">
+            <a href="/categories/security" class="green" title="Security">Security</a>
+        </span>
      
 
      
@@ -204,26 +219,66 @@
 
                                 </div>
                                 <div class="articles-content" style="text-align: justify;">
-                                    <img src="/posts/2017/11-welcome.jpg" style="width: 100%;height: auto;">
+                                    <img src="/posts/2018/05-symetric-ciphers-definition.jpg" style="width: 100%;height: auto;">
                                     <div class="articles-header" style="margin: 0px;">
                                         
     <span class="articles-header-tag">
-        <a href="/en/tags/me">me</a>
+        <a href="/tags/algorithm">algorithm</a>
     </span>
 
     <span class="articles-header-tag">
-        <a href="/en/tags/full-stack-hacker">full stack hacker</a>
+        <a href="/tags/cypher">cypher</a>
     </span>
 
 
                                     </div>
-                                    <h1 class="articles-content-blog-post-title"><a href="/en/personas/" class="light-link">
-    <img src="/images/persona/me.png" title="me" style="width: 50px; height:auto;">
+                                    <h1 class="articles-content-blog-post-title"><a href="/personas/" class="light-link">
+    <img src="/images/persona/junior.png" title="junior" style="width: 50px; height:auto;">
 </a>
- Welcome to Full Stack Hacker</h1>
-                                    <p><p>Hey hacker, I hope you&rsquo;re doing great! I would like to welcome you to this small space where I will share a little of my experiences and interests in various areas related to software development. welcome to the <strong>Full Stack Hacker</strong>.</p>
+ O que é uma cifra de chave simétrica?</h1>
+                                    <p><p>E aí hacker, hoje eu só gostaria de definir o que é um algoritmo simétrico, pois ele será usado em diversos tópicos que escreverei, portanto para não me repetir e manter os assuntos focados, deixarei aqui uma definição simples e objetiva, juntamente com aquela bela dica no final ;)</p>
 
-<p>Welcome! I am recreating this blog.</p></p>
+<p>Para definirmos uma cifra é importante definirmos o ambiente que ela está inserida, poranto uma cifra é definida sobre um banquinho de 3 pernas:</p>
+
+<ul>
+<li>Um conjunto de todas as chaves possíveis, representados pela letra <strong>K</strong> (keys)</li>
+<li>Um conjunto de todas as mensagens possíveis, representados pela letra <strong>M</strong> (messages)</li>
+<li>Um conjunto de todos os possíveis textos cifrados ou encriptados, representados pela letra <strong>C</strong> (cipher texts)</li>
+</ul>
+
+<p>Definindo o ambiente, podemos agora dizer que uma cifra é definida por dois eficientes algoritmos:
+- Um algoritmo de encriptação, representado pela letra <strong>E</strong> (encription)
+- Um algoritmo de decriptaçao, representado pela letra <strong>D</strong> (decription)</p>
+
+<p>Em termos práticos:</p>
+
+<ul>
+<li>O algoritmo de encriptação recebe uma chave e uma mensagem e retorna um texto cifrado: <strong>E(K,M) = C</strong></li>
+<li>O algoritmo de decriptação recebe uma chave e um texto cifrado e retorna uma mensagem: <strong>D(K,C) = M</strong></li>
+</ul>
+
+<p>Mas o que significa uma cifra ser simétrica? Significa que ela deve seguir um único requisto:</p>
+
+<ul>
+<li>Os algoritmos <strong>E</strong> e <strong>D</strong> precisam ser consistentes, ou seja, se você decriptar um texto cifrado usando a mesma chave que o texto original foi encriptado, você deve obter o mesmo texto original, isto pode ser representado da seguinte forma: <strong>D(K,(E(K,M))) = M</strong>.</li>
+</ul>
+
+<p>Trocando em miúdos, <strong>você utiliza a mesma chave tanto para encriptar quanto para decriptar</strong>.</p>
+
+<p>Outro ponto interessante é que o algoritmo <strong>E</strong> é frequentemente aleatório, na prática isto significa que na maioria deles se você utilizar este algoritmo duas vezes utilizando o mesmo texto original, terás 2 textos cifrados diferentes, ou seja, não consegues simplesmente comparar o texto encriptado assim como comparas o texto original.
+Se você escolher um texto qualquer, a palavra &ldquo;batata&rdquo;, por exemplo, consegues comparar &ldquo;batata&rdquo; com &ldquo;batata&rdquo; e verificar se elas são iguais, mas e você encriptar uma vez a palavra &ldquo;batata&rdquo;, podes obter o texto cifrado &ldquo;42j3h4k2hk23h423m432&rdquo;, ao encriptar outra vez a palavra &ldquo;batata&rdquo; terás outro texto cifrado &ldquo;kjkj43j3j4l3jl4j3j4l3j&rdquo;, embora ambos contenham o mesmo conteúdo original, se você comparar os 2 de enquanto cifra terá um resultado negativo.</p>
+
+<p>Mas acontece o inverso com o algoritmo <strong>D</strong>, ele é sempre determinístico, de forma simples, se você enviar a ele um texto cifrado e uma chave ele sempre irá retornar o valor original. É o mínimo que se espera não é mesmo?</p>
+
+<p>Os algoritmos que falei na primeira parte de <a href="/posts/uma-breve-hist%C3%B3ria-da-criptografia-parte-1-de-3/">Uma breve história da criptografia</a> são algoritmos simétricos, mas naqueles exemplos o <strong>E</strong>  era determinístico, pois são algoritmos mais antigos, apenas para contar um pouco da história.</p>
+
+<p>Veja que um ponto importante aqui é que a chave é compartilhada entre quem enviou a mensagem e quem a recebeu, portanto o canal de comunicação da chave precisa ser seguro. Podes ter o algoritmo mais bem desenvolvido, se sua chave não estiver segura, nada estará seguro.</p>
+
+<p>Este tipo de algoritmo pode ser usado para stream ciphers ou block ciphers, vou fazer um post específico sobre eles.</p>
+
+<p>Gostaria de encessar apenas com uma curiosidade, imagine que você queira comprimir um determinado texto e também encriptá-lo, faz diferença a ordem que você fizer isto ou precisa ser feito em uma determinada ordem? Teeeeempô&hellip;. brrreeeeeeee! Como vimos que o algoritmo <strong>E</strong> frequentemente não é determinístico e gera diversos bits aleatório, logo se você encriptar primeiro não terá um bom resultado na compressão, pois terão poucos bits iguais para generalizar e comprimir, portanto comprima primeiro e encripte no final :)</p>
+
+<p>Valeuuuuuu&hellip;.</p></p>
                                 </div>
                                 <div class="sharethis-inline-reaction-buttons"></div>
                             </div>
@@ -241,10 +296,10 @@
                             <div class="articles-author">
     <img src="/images/about/avatar.png" class="rounded-circle" alt="Lorival S. Chapuis" data-rjs="2">
     <div class="articles-author-right" style="margin: 0px 0 0 100px;">
-        Written by:
+        Escrito por:
         <h4>Lorival S. Chapuis</h4>
         
-        <p>Software engineer focused on scalability, sometimes a gamer, computer intelligence enthusiast, and passionate for my family and software development.</p>
+        <p>Engenheiro de software focado em escalabilidade, gamer nas horas de folga, entusiasta em inteligência computacional e apaixonado pela minha família e por desenvolvimento de software.</p>
     </div>
 </div>
                         </div>

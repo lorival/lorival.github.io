@@ -6,15 +6,24 @@
     <description>Recent content in Cypher on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Fri, 01 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/cypher/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>O que é uma cifra de chave simétrica?</title>
+      <link>/posts/o-que-%C3%A9-uma-cifra-de-chave-sim%C3%A9trica/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/o-que-%C3%A9-uma-cifra-de-chave-sim%C3%A9trica/</guid>
+      <description>&lt;p&gt;E aí hacker, hoje eu só gostaria de definir o que é um algoritmo simétrico, pois ele será usado em diversos tópicos que escreverei, portanto para não me repetir e manter os assuntos focados, deixarei aqui uma definição simples e objetiva, juntamente com aquela bela dica no final ;)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Uma breve história da criptografia - Parte 1 de 3</title>
       <link>/posts/uma-breve-hist%C3%B3ria-da-criptografia-parte-1-de-3/</link>
-      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/posts/uma-breve-hist%C3%B3ria-da-criptografia-parte-1-de-3/</guid>
       <description>&lt;p&gt;Atualmente, a história da criptografia é dividida em 3 fases, cada uma com uma determinada característica. Neste post vou explorar a primeira fase, alguns de seus algorítmos e como quebrá-los.&lt;/p&gt;</description>

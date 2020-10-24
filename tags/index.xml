@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Fri, 01 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Algorithm</title>
       <link>/tags/algorithm/</link>
-      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/algorithm/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>Cypher</title>
       <link>/tags/cypher/</link>
-      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/cypher/</guid>
       <description></description>
@@ -32,7 +32,7 @@
     <item>
       <title>Full Stack Hacker</title>
       <link>/tags/full-stack-hacker/</link>
-      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/full-stack-hacker/</guid>
       <description></description>
@@ -41,7 +41,7 @@
     <item>
       <title>History</title>
       <link>/tags/history/</link>
-      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/history/</guid>
       <description></description>
@@ -50,9 +50,27 @@
     <item>
       <title>Me</title>
       <link>/tags/me/</link>
-      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/me/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prg</title>
+      <link>/tags/prg/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/prg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>/tags/statistics/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/statistics/</guid>
       <description></description>
     </item>
     
