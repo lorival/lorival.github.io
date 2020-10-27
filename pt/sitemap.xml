@@ -33,6 +33,11 @@
   </url>
   
   <url>
+    <loc>/posts/stream-cipher-e-como-quebrar-a-camada-de-seguran%C3%A7a-wep/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/o-segredo-perfeito-e-a-cifra-one-time-pad-otp/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
   </url>
@@ -87,7 +92,7 @@
   
   <url>
     <loc>/tags/algorithm/</loc>
-    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -107,13 +112,13 @@
   </url>
   
   <url>
-    <loc>/tags/cryptography/</loc>
-    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <loc>/tags/cipher/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/cypher/</loc>
+    <loc>/tags/cryptography/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -136,7 +141,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -174,7 +179,7 @@
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -196,7 +201,7 @@
   
   <url>
     <loc>/categories/security/</loc>
-    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -208,7 +213,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -220,6 +225,18 @@
                 hreflang="pt"
                 href="/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>/tags/wep/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/wifi/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

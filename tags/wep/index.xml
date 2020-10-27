@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wep on Lorival Smolski Chapuis</title>
+    <link>/tags/wep/</link>
+    <description>Recent content in Wep on Lorival Smolski Chapuis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/wep/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stream cipher e como quebrar a camada de segurança WEP</title>
+      <link>/posts/stream-cipher-e-como-quebrar-a-camada-de-seguran%C3%A7a-wep/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/stream-cipher-e-como-quebrar-a-camada-de-seguran%C3%A7a-wep/</guid>
+      <description>&lt;p&gt;Olá mais uma vez hacker, depois de conhecer o One Time Pad (OTP), hoje eu gostaria de falar sobre a aplicação computacional do OTP, chamado de Stream cipher, que basicamente é o OTP mas utilizando números pseudo-aleatórios, ou seja, gerados por uma função matemática seja ela qual for.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

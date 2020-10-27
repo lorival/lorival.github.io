@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Algorithm</title>
       <link>/tags/algorithm/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cipher</title>
+      <link>/tags/cipher/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cipher/</guid>
       <description></description>
     </item>
     
@@ -26,15 +35,6 @@
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/cryptography/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cypher</title>
-      <link>/tags/cypher/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/cypher/</guid>
       <description></description>
     </item>
     
@@ -80,6 +80,24 @@
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wep</title>
+      <link>/tags/wep/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/wep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wifi</title>
+      <link>/tags/wifi/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/wifi/</guid>
       <description></description>
     </item>
     
