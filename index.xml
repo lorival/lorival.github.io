@@ -6,10 +6,19 @@
     <description>Recent content on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Data Encryption Standard (DES)</title>
+      <link>/posts/data-encryption-standard-des/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/data-encryption-standard-des/</guid>
+      <description>&lt;p&gt;Agora que já está claro o que são block ciphers, em &lt;a href=&#34;/posts/cifra-de-bloco-e-permuta%C3%A7%C3%B5es-pseudo-aleat%C3%B3rias/&#34;&gt;Cifra de bloco e permutações pseudo-aleatórias&lt;/a&gt;, é hora de descrever um pouco sobre o famoso DES.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Cifra de bloco e permutações pseudo-aleatórias</title>

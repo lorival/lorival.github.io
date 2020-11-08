@@ -168,22 +168,14 @@
         <ul>
             <li>
                 
-                <a href="/posts/data-encryption-standard-des/" title="Próximo" style="background-color: rgba(243, 243, 243, 0.95);">
-                    <i class="pe-7s-angle-right"></i>
-                    <div>
-                        <p>Próximo</p>
-                        <h3>Data Encryption Standard (DES)</h3>
-                    </div>
-                </a>
-                
             </li>
             <li>
                 
-                <a href="/posts/cifras-de-fluxo-e-como-quebrar-a-camada-de-seguran%C3%A7a-wep/" title="Anterior" style="background-color: rgba(243, 243, 243, 0.95);">
+                <a href="/posts/cifra-de-bloco-e-permuta%C3%A7%C3%B5es-pseudo-aleat%C3%B3rias/" title="Anterior" style="background-color: rgba(243, 243, 243, 0.95);">
                     <i class="pe-7s-angle-left"></i>
                     <div>
                         <p>Anterior</p>
-                        <h3>Cifras de fluxo e como quebrar a camada de segurança WEP</h3>
+                        <h3>Cifra de bloco e permutações pseudo-aleatórias</h3>
                     </div>
                 </a>
                 
@@ -214,7 +206,7 @@
                                 <div class="articles-header">
                                     <span><i class="pe-7s-clock" style="font-weight: bold"></i> Leia em 4 min &nbsp;</span>
                                     <span><i class="pe-7s-date" style="font-weight: bold"></i> 
-    dez de 2018
+    fev de 2019
 </span>
                                     
                                     
@@ -235,9 +227,13 @@
 
                                 </div>
                                 <div class="articles-content" style="text-align: justify;">
-                                    <img src="/posts/2018/12-block-ciphers.jpg" style="width: 100%;height: auto;">
+                                    <img src="/posts/2019/02-data-encryption-standard.jpg" style="width: 100%;height: auto;">
                                     <div class="articles-header" style="margin: 0px;">
                                         
+    <span class="articles-header-tag">
+        <a href="/tags/symetric">symetric</a>
+    </span>
+
     <span class="articles-header-tag">
         <a href="/tags/algorithm">algorithm</a>
     </span>
@@ -246,103 +242,70 @@
         <a href="/tags/cipher">cipher</a>
     </span>
 
-    <span class="articles-header-tag">
-        <a href="/tags/symetric">symetric</a>
-    </span>
-
 
                                     </div>
                                     <h1 class="articles-content-blog-post-title"><a href="/personas/" class="light-link">
     <img src="/images/persona/junior.png" title="junior" style="width: 50px; height:auto;">
 </a>
- Cifra de bloco e permutações pseudo-aleatórias</h1>
-                                    <p><p>Depois de entender como funcionam as <strong>stream ciphers</strong> ou <strong>cifras de fluxo</strong> no post <a href="/posts/cifras-de-fluxo-e-como-quebrar-a-camada-de-seguran%C3%A7a-wep/">Cifras de fluxo e como quebrar a camada de segurança WEP</a>), eu gostaria de descrever uma outra primitiva mas poderosa cifra, chamada de <strong>cifra de bloco</strong> ou no original <strong>block cipher</strong>. Este post servirá como base para futuros posts sobre <strong>DES</strong> e <strong>AES</strong>, por exemplo.</p>
+ Data Encryption Standard (DES)</h1>
+                                    <p><p>Agora que já está claro o que são block ciphers, em <a href="/posts/cifra-de-bloco-e-permuta%C3%A7%C3%B5es-pseudo-aleat%C3%B3rias/">Cifra de bloco e permutações pseudo-aleatórias</a>, é hora de descrever um pouco sobre o famoso DES.</p>
 
-<p>Como vimos no post <a href="/posts/o-que-%C3%A9-uma-cifra-de-chave-sim%C3%A9trica/">O que é uma cifra de chave simétrica?</a>, uma cifra é formada por um algoritmo <strong>E</strong> (encriptação) e um algoritmo <strong>D</strong> (decriptação), uma cifra de bloco possui algumas características sobre estes 2 algoritmos:</p>
+<p>Nos anos 70 a IBM teve algumas demandas para encriptação de dados, então criou um grupo de criptografia cujo líder era o <a href="https://pt.wikipedia.org/wiki/Horst_Feistel">Horst Feistel</a>. Este grupo projetou uma cifra chamada <a href="https://en.wikipedia.org/wiki/Lucifer_(cipher)">Lucifer</a>. Existiram algumas variações deste cifra, uma delas tinha 128 bits em cada bloco e a chave de mesmo tamanho.</p>
 
-<ul>
-<li>A chave é simétrica e possui um número de bits (quanto maior a chave mais segura e mais lento será o processamento)</li>
-<li>O conteúdo a ser cifrado é um bloco de tamanho fixo com uma quantidade de bits e o conteúdo cifrado tem sempre o mesmo tamanho do bloco do texto não cifrado</li>
-</ul>
+<p>Em 1973, a agência nacional de padrões (<a href="https://www.nbsusa.com/">National Bureau of Standars - NBS</a>) lançou uma chamada de propostas para definir um padrão de cifras de blocos para a utilização dos fornecedores de produtos ao governo. A IBM submeteu o Lucifer e depois de algumas modificações durante o processo de padronização, em 1976 a NBS adotou o DES como um padrão federal, mas o tamanho do bloco foi reduzido para 64 bits e a chave para 56 bits.</p>
 
-<p>As cifras de blocos funcionam por iteração, basicamente a chave é dividida em diversas outras chaves menores em forma circular e a forma de encriptar é chamar a função que encripta (chamada de <em>round function</em>) diversas vezes usando uma chave diferente. O texto encriptado se torna a entrada da função novamente. Vamos ver um exemplo simples:</p>
+<p>A empresa <a href="https://www.rsa.com/en-us/company">RSA</a> fez um desafio para quebrar o DES usando força bruta, que consistia no seguinte:</p>
 
 <ul>
-<li>Vamos dizer que o bloco de mensagem (<strong>m20</strong>) tem tamanho 20 bits, apenas para ilustrar.</li>
-<li>Vamos dizer que nossa chave tem 10 bits: a1a2a3a4a5a6a7a8a9a0</li>
-<li>Vamos dizer também que a quantidade de iterações são 3 e que cada chave circular terá 8 bits (k1 = a1a2a3a4a5a6a7a8, k2=a9a0a1a2a3a4a5a6a, k3=7a8a9a0a1a2a3a4a5)</li>
-<li>Na primeira iteração chamaremos a função de encriptação (<em>round function</em>, <strong>R</strong>), enviando a chave da primeira interação e a mensagem a ser cifrada assim: <strong>R(k1, m20) = m20A</strong></li>
-<li>Na segunda iteração chamaremos a função novamente, mas agora usando a segunda chave e o resultado da iteração anterior como mensagem assim: <strong>R(k2, m20A) = m20B</strong></li>
-<li>A última você já entendeu: <strong>R(k3, m20B) = m20C</strong></li>
+<li>Eles publicaram vários textos cifrados, mas 3 deles tinham a mensagem original também.</li>
+<li>Eles criaram a frase &ldquo;The unkn|own mess|ages is:| XXXXX&hellip;|..&rdquo;</li>
+<li>Esta frase encriptada e quebrada em vários blocos de 8 bits, ou seja, 56 bites sendo que os 3 primeiros blocos tinham a mensage revelada, como podemos ver acima</li>
+<li>O objetivo era saber o conteúdo dos demais blocos</li>
 </ul>
 
-<p>O tamanho final não mudou, continua sendo uma mensagem de 20 bits, porém agora encriptada.
-Diferentes cifras de blocos possuem parâmetros diferentes para cada um destes citados, veja os 2 exemplos mais comuns:</p>
+<p>Antes de falar do resultado, é interessante ressaltar que em 1993 Michael J. Wiener, propôs uma máquina para quebrar a DES em apenas 7 dias e custava 1 milhão de dólares.</p>
 
-<p><a href="https://pt.wikipedia.org/wiki/3DES">Triple DES</a> (3DES):</p>
+<p>O resultado foi o seguinte:</p>
 
 <ul>
-<li>possui blocos de 64 bits</li>
-<li>uma chave de 168 bits (3 chaves de 56 bitscal)</li>
-<li>48 iterações de encriptação, ou seja, a chave será quebrada em 48 outras chaves</li>
+<li>Em 1997, depois de 3 meses, usando computadores ociosos por meio da internet, foi possível descobrir a chave</li>
+<li>Em 1998, depois de 3 dias, usando uma máquina chamada carinhosamente de <a href="https://pt.wikipedia.org/wiki/EFF_DES_cracker">deep crack</a>, na real era EFF DES cracker, que custou 250 mil dólares, foi possível descobrir a chave<br /></li>
+<li>Em 1999, depois de 22 horas, combinando as duas abordagens anteriores, foi possível descobrir a chave</li>
+<li>Em 2006, depois de 7 dias, usando uma outra máquina chamada <a href="https://www.copacobana.org/">COPACABANA</a> que custou 10 mil dólares, foi possível descobrir a chave</li>
 </ul>
 
-<p><a href="https://pt.wikipedia.org/wiki/Advanced_Encryption_Standard">Advanced Encryption Standard</a> (AES):</p>
+<p>Em 1999, depois da lavada de 22h, foi definido uma nova abordagem chamda 3DES (triple DES), que basicamente consistia em aumentar o tamanho da chave artificialmente, basicamente utilizando o DES duas ou três vezes utilizando 3 chaves. Deixa eu explicar melhor.</p>
+
+<h3 id="3des-e-2des">3DES e 2DES</h3>
+
+<hr />
 
 <ul>
-<li>possui blocos de 128 bits</li>
-<li>chaves de 128, 192 e 256 bits</li>
-<li>para chave de 128 bits são utilizadas 10 iterações de encriptação, ou seja, a chave será dividida em 10 outras chaves</li>
+<li>O 3DES ainda possui como tamanho de chaves 56 bits, mas ao invés de ter uma chave possuí 3 chaves</li>
+<li>Então encripta a mensagem com a primeira chave, decripta com a segunda e encripta novamente com a terceira, assim: k1, k2, k3, m = <strong>E(k1, D(k2, E(k3, m)))</strong></li>
 </ul>
 
-<p>Para entendermos melhor estes valores, vamos ver as funções e permutações pseudo-aleatórias.</p>
+<p>Isto significa que o algoritmo ainda é o mesmo, ou seja, o DES, mas chamado 3 vezes. E tem um detalhe peculiar, se as 3 chaves forem iguais, a primeira encriptação e a decriptação se anularão e irá apenas encriptar uma vez, ou seja, se torna o DES convencional com uma única chave.</p>
 
-<h3 id="funções-e-permutações-pseudo-aleatórias">Funções e permutações pseudo-aleatórias</h3>
+<p>Em resumo, usou o mesmo algoritmo mais de uma vez, poderia criar o 15DES com 15 chaves e somar todas, mas a cada encriptação e decriptação o algoritmo vai ficando cada vez mais lento, portanto se torna inviável, imagina implementar isto em hardware :)</p>
 
-<p>Como vimos no post sobre generating-random-numbers, os geradores de números pseudo-aleatórios (pseudorandom generators - PRG) são usados para criar sequências de números, de maneira eficiente, que sejam imprevisíveis e sigam uma distribuição estatística. Estes geradores são a base para criar funções e permutações pseudo-aleatórias (pseudorandom functions, <strong>PRF</strong>, and permutations, <strong>PRP</strong>) usadas na criptografia, mais precisamente para cifras de blocos.</p>
+<p>A parte boa é que 3 chaves de 56 bits juntas, se tornam 168 bits, ou seja 2¹⁶⁸, que ainda levaria 10 anos para quebrar usando todas as máquinas da terra, mas é 3 vezes mais lento que o DES.</p>
 
-<p>Funções pseudo-aleatórias (<strong>PRF</strong>) são funções determinísticas cujo retorno é uma saída que não pode ser distinguível de uma sequência aleatória. A diferença dela para uma <strong>PRG</strong> é que ela aceita qualquer dado como entrada, não somente números.</p>
+<p>Pensando apenas em força bruta, qualquer chave com mais de 90 bits é considerado suficientemente seguro.</p>
 
-<blockquote class="secondary-quote">
-Uma PRF é definida sobre um conjunto de chaves (K), um conjunto de entradas (X) e um conjunto de saída (Y): F: K x X -> Y 
-</blockquote>
+<p>Então porque não usar o 2DES ou double DES, onde teríamos 112 bits de chave e seria apenas duas vezes mais lento que o DES?</p>
 
-<p>Como requisito temos que ter:</p>
+<p>Este algoritmo faria duas encriptações, uma com cada chave, seria assim: k1, k2, m = <strong>E(k1, E(k2, m))</strong>.</p>
 
-<ul>
-<li>Um algoritmo eficiente de validar dado uma chave e uma entrada: F(k,x)</li>
-</ul>
+<p>Mesmo que o tamanho da chave seja segura contra força bruta, este algoritmo é inseguro, pois pode ser quebrado usando a técnica <a href="https://en.wikipedia.org/wiki/Meet-in-the-middle_attack">meet-in-the-middle</a>, portanto, esqueça isto. Ah! não confunda com <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">man-in-the-middle</a>, isto é outra forma de ataque, posso abordar as duas em outros posts.</p>
 
-<p>Permutações pseudo-aleatórias (<strong>PRP</strong>) são semelhantes as <strong>PRFs</strong>, porém cada valor do conjunto de entrada tem um mapeamento um-para-um para o conjunto de saída, tendo assim o mesmo tamanho e podendo fazer uma inversão, ou seja, cada valor do conjunto de saída tem um mapeamento um-para-um para o conjunto de entrada.</p>
+<p>Logo depois disto, em 2002, o AES (Rijndael) substiuiu o DES como padrão federal, mas o AES escreverei em outro post.</p>
 
-<blockquote class="secondary-quote">
-Uma PRP é definida sobre um conjunto de chaves (K), um conjunto (X): E: K x X -> X 
-</blockquote>
-
-<p>Como requisitos temos que ter:</p>
-
-<ul>
-<li>Um algoritmo determinístico eficiente para validar dado uma chave e uma entrada: E(k,x)</li>
-<li>A função E(k, .) é mapeada um-para-um, ou seja, para toda entrada em um conjunto X terá um mapeamento único para outro conjunto X</li>
-<li>Devido ao item anterior, deve ser possível ter um algoritmo de inversão, visto que existe um mapeamento um-para-um entre os 2 conjuntos: D(k,y)</li>
-</ul>
-
-<p>Agora vamos aplicar PRP aos 2 exemplos de cifras de blocos:</p>
-
-<ul>
-<li>3DES = K x X -&gt; X, K={0,1}¹⁶⁸, X={0,1}⁶⁴ ==&gt; por isto que os blocos possuem 64 bits, é o tamanho do conjunto X e como vemos a chavem tem 168 bits</li>
-<li>AES = K x X -&gt; X, K=X={0,1}¹²⁸ ==&gt; neste caso a chave possuí 128 bits e o bloco de entrada e por consequência a saída também</li>
-</ul>
-
-<p>Em resumo, todo PRP é também um PRF, porém onde o X=Y (conjunto de entrada e saída são iguais) e também seja eficientemente invertido.</p>
-
-<p>Agora que entendemos o que é e como se caracteriam uma cifra de bloco, irei tratar de algumas famosas cifras com estas características em posts futuros.</p>
-
-<p>Grande abraço e até já :)</p></p>
+<p>Esta foi a vida de nosso amigo DES, nasceu do Lucifer e nem com o milagre da multiplicação conseguiu chegar aos 33 anos&hellip; RIP DES.</p></p>
                                     <div>
                                         <hr>
                                         <span><i class="pe-7s-date" style="font-weight: bold"></i> Atualizado em 
-    dez de 2018
+    fev de 2019
 </span>
                                     </div>
                                 </div>
