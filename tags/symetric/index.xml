@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Lorival Smolski Chapuis</title>
-    <link>/posts/</link>
-    <description>Recent content in Posts on Lorival Smolski Chapuis</description>
+    <title>Symetric on Lorival Smolski Chapuis</title>
+    <link>/tags/symetric/</link>
+    <description>Recent content in Symetric on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/symetric/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -45,33 +45,6 @@
       
       <guid>/posts/o-que-%C3%A9-uma-cifra-de-chave-sim%C3%A9trica/</guid>
       <description>&lt;p&gt;E aí hacker, hoje eu só gostaria de definir o que é um algoritmo simétrico, pois ele será usado em diversos tópicos que escreverei, portanto para não me repetir e manter os assuntos focados, deixarei aqui uma definição simples e objetiva, juntamente com aquela bela dica no final ;)&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Números aleatórios gerados por computador são mesmo aleatórios?</title>
-      <link>/posts/n%C3%BAmeros-aleat%C3%B3rios-gerados-por-computador-s%C3%A3o-mesmo-aleat%C3%B3rios/</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/n%C3%BAmeros-aleat%C3%B3rios-gerados-por-computador-s%C3%A3o-mesmo-aleat%C3%B3rios/</guid>
-      <description>&lt;p&gt;Eu já participei de um sorteio uma vez que levava em consideração a utilização de um número aleatório gerado por uma função em Pascal, mas será mesmo que este sorteio foi estatisticamente justo? Porque grandes sorteios ainda usam globos ou coisas físicas para efetuar um sorteio ao invés de usar o computador? Você já participou por algo assim ou já parou para pensar quão aleatório são realmente os números gerados por estas funções e quão fácil ou difícil é gerar números aleatórios?&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Uma breve história da criptografia - Parte 1 de 3</title>
-      <link>/posts/uma-breve-hist%C3%B3ria-da-criptografia-parte-1-de-3/</link>
-      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/uma-breve-hist%C3%B3ria-da-criptografia-parte-1-de-3/</guid>
-      <description>&lt;p&gt;Atualmente, a história da criptografia é dividida em 3 fases, cada uma com uma determinada característica. Neste post vou explorar a primeira fase, alguns de seus algorítmos e como quebrá-los.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Bem-vindo ao Full Stack Hacker</title>
-      <link>/posts/bem-vindo-ao-full-stack-hacker/</link>
-      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/bem-vindo-ao-full-stack-hacker/</guid>
-      <description>&lt;p&gt;E aí hacker, espero que você esteja muito bem! Eu gostaria de dar-lhe as boas vindas a este pequeno espaço onde irei compartilhar um pouco de minhas experiências e interesses em diversas áreas relacionados à desenvolvimento de software, seja muito bem vindo ao &lt;strong&gt;Full Stack Hacker&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

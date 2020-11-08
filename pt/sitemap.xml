@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/summary/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/inspirations/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -33,7 +38,12 @@
   </url>
   
   <url>
-    <loc>/posts/stream-cipher-e-como-quebrar-a-camada-de-seguran%C3%A7a-wep/</loc>
+    <loc>/posts/cifra-de-bloco-e-permuta%C3%A7%C3%B5es-pseudo-aleat%C3%B3rias/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/cifras-de-fluxo-e-como-quebrar-a-camada-de-seguran%C3%A7a-wep/</loc>
     <lastmod>2018-10-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -92,7 +102,7 @@
   
   <url>
     <loc>/tags/algorithm/</loc>
-    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -113,7 +123,7 @@
   
   <url>
     <loc>/tags/cipher/</loc>
-    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -141,7 +151,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -179,7 +189,7 @@
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -201,7 +211,7 @@
   
   <url>
     <loc>/categories/security/</loc>
-    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -212,8 +222,14 @@
   </url>
   
   <url>
+    <loc>/tags/symetric/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
-    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"

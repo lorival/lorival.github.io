@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Stream cipher e como quebrar a camada de segurança WEP</title>
-      <link>/posts/stream-cipher-e-como-quebrar-a-camada-de-seguran%C3%A7a-wep/</link>
+      <title>Cifras de fluxo e como quebrar a camada de segurança WEP</title>
+      <link>/posts/cifras-de-fluxo-e-como-quebrar-a-camada-de-seguran%C3%A7a-wep/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/posts/stream-cipher-e-como-quebrar-a-camada-de-seguran%C3%A7a-wep/</guid>
+      <guid>/posts/cifras-de-fluxo-e-como-quebrar-a-camada-de-seguran%C3%A7a-wep/</guid>
       <description>&lt;p&gt;Olá mais uma vez hacker, depois de conhecer o One Time Pad (OTP), hoje eu gostaria de falar sobre a aplicação computacional do OTP, chamado de Stream cipher, que basicamente é o OTP mas utilizando números pseudo-aleatórios, ou seja, gerados por uma função matemática seja ela qual for.&lt;/p&gt;</description>
     </item>
     

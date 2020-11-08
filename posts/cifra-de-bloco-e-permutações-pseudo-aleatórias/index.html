@@ -144,9 +144,6 @@
 
 <li style="float: right">
     
-        <img src="/images/home/us.png" alt="Full Stack Hacker">
-        <a href="/en/posts/welcome-to-full-stack-hacker/" title="Read in English">Read in English</a>
-    
 </li>
                     </ul>
                 </nav>
@@ -171,16 +168,16 @@
         <ul>
             <li>
                 
-                <a href="/posts/uma-breve-hist%C3%B3ria-da-criptografia-parte-1-de-3/" title="Próximo" style="background-color: rgba(243, 243, 243, 0.95);">
-                    <i class="pe-7s-angle-right"></i>
-                    <div>
-                        <p>Próximo</p>
-                        <h3>Uma breve história da criptografia - Parte 1 de 3</h3>
-                    </div>
-                </a>
-                
             </li>
             <li>
+                
+                <a href="/posts/cifras-de-fluxo-e-como-quebrar-a-camada-de-seguran%C3%A7a-wep/" title="Anterior" style="background-color: rgba(243, 243, 243, 0.95);">
+                    <i class="pe-7s-angle-left"></i>
+                    <div>
+                        <p>Anterior</p>
+                        <h3>Cifras de fluxo e como quebrar a camada de segurança WEP</h3>
+                    </div>
+                </a>
                 
             </li>
         </ul>
@@ -200,14 +197,16 @@
 
      
 
+    
+        <div style="height: 10px;" class="bkg-green"></div>
      
 
      
 
                                 <div class="articles-header">
-                                    <span><i class="pe-7s-clock" style="font-weight: bold"></i> Leia em 3 min &nbsp;</span>
+                                    <span><i class="pe-7s-clock" style="font-weight: bold"></i> Leia em 4 min &nbsp;</span>
                                     <span><i class="pe-7s-date" style="font-weight: bold"></i> 
-    nov de 2017
+    dez de 2018
 </span>
                                     
                                     
@@ -217,6 +216,10 @@
 
      
 
+        
+        <span class="articles-header-category">
+            <a href="/categories/security" class="green" title="Security">Security</a>
+        </span>
      
 
      
@@ -224,71 +227,114 @@
 
                                 </div>
                                 <div class="articles-content" style="text-align: justify;">
-                                    <img src="/posts/2017/11-welcome.jpg" style="width: 100%;height: auto;">
+                                    <img src="/posts/2018/12-block-ciphers.jpg" style="width: 100%;height: auto;">
                                     <div class="articles-header" style="margin: 0px;">
                                         
     <span class="articles-header-tag">
-        <a href="/tags/me">me</a>
+        <a href="/tags/algorithm">algorithm</a>
     </span>
 
     <span class="articles-header-tag">
-        <a href="/tags/full-stack-hacker">full stack hacker</a>
+        <a href="/tags/cipher">cipher</a>
+    </span>
+
+    <span class="articles-header-tag">
+        <a href="/tags/symetric">symetric</a>
     </span>
 
 
                                     </div>
                                     <h1 class="articles-content-blog-post-title"><a href="/personas/" class="light-link">
-    <img src="/images/persona/me.png" title="me" style="width: 50px; height:auto;">
+    <img src="/images/persona/junior.png" title="junior" style="width: 50px; height:auto;">
 </a>
- Bem-vindo ao Full Stack Hacker</h1>
-                                    <p><p>E aí hacker, espero que você esteja muito bem! Eu gostaria de dar-lhe as boas vindas a este pequeno espaço onde irei compartilhar um pouco de minhas experiências e interesses em diversas áreas relacionados à desenvolvimento de software, seja muito bem vindo ao <strong>Full Stack Hacker</strong>.</p>
+ Cifra de bloco e permutações pseudo-aleatórias</h1>
+                                    <p><p>Depois de entender como funcionam as <strong>stream ciphers</strong> ou <strong>cifras de fluxo</strong> no post <a href="/posts/cifras-de-fluxo-e-como-quebrar-a-camada-de-seguran%C3%A7a-wep/">Cifras de fluxo e como quebrar a camada de segurança WEP</a>), eu gostaria de descrever uma outra primitiva mas poderosa cifra, chamada de <strong>cifra de bloco</strong> ou no original <strong>block cipher</strong>. Este post servirá como base para futuros posts sobre <strong>DES</strong> e <strong>AES</strong>, por exemplo.</p>
 
-<p>Eu comecei a escrever posts técnicos em meu blog em 2009 como um hobby, compartilhando diversas experiências do meu dia-a-dia e aprendizados. Isto me ajudou muito neste período, tanto profissionalmente como pessoalmente, conheci pessoas de fora do meu círculo e ao escrever exercitava minha criatividade e aprendia sempre algo novo durante o processo, foi neste período que fundei minha primeira e extinta empresa :)</p>
+<p>Como vimos no post <a href="/posts/o-que-%C3%A9-uma-cifra-de-chave-sim%C3%A9trica/">O que é uma cifra de chave simétrica?</a>, uma cifra é formada por um algoritmo <strong>E</strong> (encriptação) e um algoritmo <strong>D</strong> (decriptação), uma cifra de bloco possui algumas características sobre estes 2 algoritmos:</p>
 
-<p>Eu mantive uma assiduidade até início de 2012 aproximadamente, depois foquei em outras coisas e acabei não escrevendo mais, hoje gostaria de recomeçar este hobby e voltar a compartilhar o que eu estou estudando no momento :)</p>
+<ul>
+<li>A chave é simétrica e possui um número de bits (quanto maior a chave mais segura e mais lento será o processamento)</li>
+<li>O conteúdo a ser cifrado é um bloco de tamanho fixo com uma quantidade de bits e o conteúdo cifrado tem sempre o mesmo tamanho do bloco do texto não cifrado</li>
+</ul>
 
-<p>Apenas por curiosidade eu tive 3 versões do meu blog antes desta atual, eu coloquei aqui imagens da primeira e da segunda versão, a primeira tem um post de maio de 2010 dizendo que eu havia criado justamente um segundo blog :)</p>
+<p>As cifras de blocos funcionam por iteração, basicamente a chave é dividida em diversas outras chaves menores em forma circular e a forma de encriptar é chamar a função que encripta (chamada de <em>round function</em>) diversas vezes usando uma chave diferente. O texto encriptado se torna a entrada da função novamente. Vamos ver um exemplo simples:</p>
 
-<h3 id="primeira-versão">Primeira versão</h3>
+<ul>
+<li>Vamos dizer que o bloco de mensagem (<strong>m20</strong>) tem tamanho 20 bits, apenas para ilustrar.</li>
+<li>Vamos dizer que nossa chave tem 10 bits: a1a2a3a4a5a6a7a8a9a0</li>
+<li>Vamos dizer também que a quantidade de iterações são 3 e que cada chave circular terá 8 bits (k1 = a1a2a3a4a5a6a7a8, k2=a9a0a1a2a3a4a5a6a, k3=7a8a9a0a1a2a3a4a5)</li>
+<li>Na primeira iteração chamaremos a função de encriptação (<em>round function</em>, <strong>R</strong>), enviando a chave da primeira interação e a mensagem a ser cifrada assim: <strong>R(k1, m20) = m20A</strong></li>
+<li>Na segunda iteração chamaremos a função novamente, mas agora usando a segunda chave e o resultado da iteração anterior como mensagem assim: <strong>R(k2, m20A) = m20B</strong></li>
+<li>A última você já entendeu: <strong>R(k3, m20B) = m20C</strong></li>
+</ul>
 
-<p><figure>
-    <img src="/posts/2017/11-blog-1.png" width="100%"/> 
-</figure>
+<p>O tamanho final não mudou, continua sendo uma mensagem de 20 bits, porém agora encriptada.
+Diferentes cifras de blocos possuem parâmetros diferentes para cada um destes citados, veja os 2 exemplos mais comuns:</p>
 
-Esta é a primeira versão do meu blog técnico, antes dela eu tive um outro blog com histórias de terror criadas por mim, mas eu escrevi apenas 3 histórias, como eu fazia faculdade na época achei melhor escrever sobre assuntos técnicos :)</p>
+<p><a href="https://pt.wikipedia.org/wiki/3DES">Triple DES</a> (3DES):</p>
 
-<h3 id="segunda-versão">Segunda versão</h3>
+<ul>
+<li>possui blocos de 64 bits</li>
+<li>uma chave de 168 bits (3 chaves de 56 bitscal)</li>
+<li>48 iterações de encriptação, ou seja, a chave será quebrada em 48 outras chaves</li>
+</ul>
 
-<p><figure>
-    <img src="/posts/2017/11-blog-2.png" width="100%"/> 
-</figure>
+<p><a href="https://pt.wikipedia.org/wiki/Advanced_Encryption_Standard">Advanced Encryption Standard</a> (AES):</p>
 
-Esta segunda versão tem até o desenho da minha tatuagem sobre a mesa no cabeçalho hehehehheeeh
-E eu estou na segunda foto em pé, apresentando em frente ao telão.</p>
+<ul>
+<li>possui blocos de 128 bits</li>
+<li>chaves de 128, 192 e 256 bits</li>
+<li>para chave de 128 bits são utilizadas 10 iterações de encriptação, ou seja, a chave será dividida em 10 outras chaves</li>
+</ul>
 
-<h3 id="terceira-versão">Terceira versão</h3>
+<p>Para entendermos melhor estes valores, vamos ver as funções e permutações pseudo-aleatórias.</p>
 
-<p>Em 2015 eu comecei uma terceira versão, mas não durou muito tempo, eu tinha empresa na época e todos os meus esforços estavam focados lá.</p>
+<h3 id="funções-e-permutações-pseudo-aleatórias">Funções e permutações pseudo-aleatórias</h3>
 
-<h3 id="quarta-versão-atual">Quarta versão (atual)</h3>
+<p>Como vimos no post sobre generating-random-numbers, os geradores de números pseudo-aleatórios (pseudorandom generators - PRG) são usados para criar sequências de números, de maneira eficiente, que sejam imprevisíveis e sigam uma distribuição estatística. Estes geradores são a base para criar funções e permutações pseudo-aleatórias (pseudorandom functions, <strong>PRF</strong>, and permutations, <strong>PRP</strong>) usadas na criptografia, mais precisamente para cifras de blocos.</p>
 
-<p>Esta é a nova versão e ao invés de ter meu nome eu chamei de <strong>Full Stack Hacker</strong> e o motivo eu posso comentar em outros posts.</p>
+<p>Funções pseudo-aleatórias (<strong>PRF</strong>) são funções determinísticas cujo retorno é uma saída que não pode ser distinguível de uma sequência aleatória. A diferença dela para uma <strong>PRG</strong> é que ela aceita qualquer dado como entrada, não somente números.</p>
 
-<p>Se você estiver lendo isto se sinta único no universo por fazer isto, pois talvez você o seja mesmo&hellip; hehehehheehe&hellip;. o que eu quero dizer é que eu não espero que alguém leia meu blog, estranho dizer isto, mas este blog conterá minhas anotações para mim, para que eu possa fixar melhor os assuntos que eu estou estudando e principalmente para que eu possa revisitar sempre que eu desejar.</p>
+<blockquote class="secondary-quote">
+Uma PRF é definida sobre um conjunto de chaves (K), um conjunto de entradas (X) e um conjunto de saída (Y): F: K x X -> Y 
+</blockquote>
 
-<p>Eu espero que de alguma forma, em algum momento, algumas de minhas anotações possam ser úteis a você, mas não espere que eu escreva para você, desculpe, eu escreverei para mim, ensinando o meu próprio eu do futuro.</p>
+<p>Como requisito temos que ter:</p>
 
-<p>E se você sou o eu do futuro, espero que estas anotações tenham sido de alguma forma úteis mesmo, tanto no processo de aprendizado quando de revisitação.</p>
+<ul>
+<li>Um algoritmo eficiente de validar dado uma chave e uma entrada: F(k,x)</li>
+</ul>
 
-<p>Como eu escrevo demais (até li isto no print e ri muito), vou começar este post sendo curto e objetivo, meus dedos estão malucos para digitar sem parar&hellip; hehehehhehe</p>
+<p>Permutações pseudo-aleatórias (<strong>PRP</strong>) são semelhantes as <strong>PRFs</strong>, porém cada valor do conjunto de entrada tem um mapeamento um-para-um para o conjunto de saída, tendo assim o mesmo tamanho e podendo fazer uma inversão, ou seja, cada valor do conjunto de saída tem um mapeamento um-para-um para o conjunto de entrada.</p>
 
-<p>Seja bem vindo a este pequeno espaço!</p>
+<blockquote class="secondary-quote">
+Uma PRP é definida sobre um conjunto de chaves (K), um conjunto (X): E: K x X -> X 
+</blockquote>
 
-<p>Grande abraço :)</p></p>
+<p>Como requisitos temos que ter:</p>
+
+<ul>
+<li>Um algoritmo determinístico eficiente para validar dado uma chave e uma entrada: E(k,x)</li>
+<li>A função E(k, .) é mapeada um-para-um, ou seja, para toda entrada em um conjunto X terá um mapeamento único para outro conjunto X</li>
+<li>Devido ao item anterior, deve ser possível ter um algoritmo de inversão, visto que existe um mapeamento um-para-um entre os 2 conjuntos: D(k,y)</li>
+</ul>
+
+<p>Agora vamos aplicar PRP aos 2 exemplos de cifras de blocos:</p>
+
+<ul>
+<li>3DES = K x X -&gt; X, K={0,1}¹⁶⁸, X={0,1}⁶⁴ ==&gt; por isto que os blocos possuem 64 bits, é o tamanho do conjunto X e como vemos a chavem tem 168 bits</li>
+<li>AES = K x X -&gt; X, K=X={0,1}¹²⁸ ==&gt; neste caso a chave possuí 128 bits e o bloco de entrada e por consequência a saída também</li>
+</ul>
+
+<p>Em resumo, todo PRP é também um PRF, porém onde o X=Y (conjunto de entrada e saída são iguais) e também seja eficientemente invertido.</p>
+
+<p>Agora que entendemos o que é e como se caracteriam uma cifra de bloco, irei tratar de algumas famosas cifras com estas características em posts futuros.</p>
+
+<p>Grande abraço e até já :)</p></p>
                                     <div>
                                         <hr>
                                         <span><i class="pe-7s-date" style="font-weight: bold"></i> Atualizado em 
-    out de 2020
+    dez de 2018
 </span>
                                     </div>
                                 </div>
