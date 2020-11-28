@@ -6,73 +6,10 @@
     <description>Recent content in Posts on Lorival Smolski Chapuis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
-    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Data Encryption Standard (DES)</title>
-      <link>/posts/data-encryption-standard-des/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/data-encryption-standard-des/</guid>
-      <description>&lt;p&gt;Agora que já está claro o que são block ciphers, em &lt;a href=&#34;/posts/cifra-de-bloco-e-permuta%C3%A7%C3%B5es-pseudo-aleat%C3%B3rias/&#34;&gt;Cifra de bloco e permutações pseudo-aleatórias&lt;/a&gt;, é hora de descrever um pouco sobre o famoso DES.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Cifra de bloco e permutações pseudo-aleatórias</title>
-      <link>/posts/cifra-de-bloco-e-permuta%C3%A7%C3%B5es-pseudo-aleat%C3%B3rias/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/cifra-de-bloco-e-permuta%C3%A7%C3%B5es-pseudo-aleat%C3%B3rias/</guid>
-      <description>&lt;p&gt;Depois de entender como funcionam as &lt;strong&gt;stream ciphers&lt;/strong&gt; ou &lt;strong&gt;cifras de fluxo&lt;/strong&gt; no post &lt;a href=&#34;/posts/cifras-de-fluxo-e-como-quebrar-a-camada-de-seguran%C3%A7a-wep/&#34;&gt;Cifras de fluxo e como quebrar a camada de segurança WEP&lt;/a&gt;), eu gostaria de descrever uma outra primitiva mas poderosa cifra, chamada de &lt;strong&gt;cifra de bloco&lt;/strong&gt; ou no original &lt;strong&gt;block cipher&lt;/strong&gt;. Este post servirá como base para futuros posts sobre &lt;strong&gt;DES&lt;/strong&gt; e &lt;strong&gt;AES&lt;/strong&gt;, por exemplo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Cifras de fluxo e como quebrar a camada de segurança WEP</title>
-      <link>/posts/cifras-de-fluxo-e-como-quebrar-a-camada-de-seguran%C3%A7a-wep/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/cifras-de-fluxo-e-como-quebrar-a-camada-de-seguran%C3%A7a-wep/</guid>
-      <description>&lt;p&gt;Olá mais uma vez hacker, depois de conhecer o One Time Pad (OTP), hoje eu gostaria de falar sobre a aplicação computacional do OTP, chamado de Stream cipher, que basicamente é o OTP mas utilizando números pseudo-aleatórios, ou seja, gerados por uma função matemática seja ela qual for.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>O segredo perfeito e a cifra One Time Pad (OTP)</title>
-      <link>/posts/o-segredo-perfeito-e-a-cifra-one-time-pad-otp/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/o-segredo-perfeito-e-a-cifra-one-time-pad-otp/</guid>
-      <description>&lt;p&gt;Hoje gostaria de trazer o primeiro exemplo de criptografia &amp;ldquo;segura&amp;rdquo; que coloquei no blog até o momento, explicar o porque ela é segura e também, como todo herói tem sua criptonita, apresentar suas falhas.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>O que é uma cifra de chave simétrica?</title>
-      <link>/posts/o-que-%C3%A9-uma-cifra-de-chave-sim%C3%A9trica/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/o-que-%C3%A9-uma-cifra-de-chave-sim%C3%A9trica/</guid>
-      <description>&lt;p&gt;E aí hacker, hoje eu só gostaria de definir o que é um algoritmo simétrico, pois ele será usado em diversos tópicos que escreverei, portanto para não me repetir e manter os assuntos focados, deixarei aqui uma definição simples e objetiva, juntamente com aquela bela dica no final ;)&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Números aleatórios gerados por computador são mesmo aleatórios?</title>
-      <link>/posts/n%C3%BAmeros-aleat%C3%B3rios-gerados-por-computador-s%C3%A3o-mesmo-aleat%C3%B3rios/</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/n%C3%BAmeros-aleat%C3%B3rios-gerados-por-computador-s%C3%A3o-mesmo-aleat%C3%B3rios/</guid>
-      <description>&lt;p&gt;Eu já participei de um sorteio uma vez que levava em consideração a utilização de um número aleatório gerado por uma função em Pascal, mas será mesmo que este sorteio foi estatisticamente justo? Porque grandes sorteios ainda usam globos ou coisas físicas para efetuar um sorteio ao invés de usar o computador? Você já participou por algo assim ou já parou para pensar quão aleatório são realmente os números gerados por estas funções e quão fácil ou difícil é gerar números aleatórios?&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Uma breve história da criptografia - Parte 1 de 3</title>
-      <link>/posts/uma-breve-hist%C3%B3ria-da-criptografia-parte-1-de-3/</link>
-      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/uma-breve-hist%C3%B3ria-da-criptografia-parte-1-de-3/</guid>
-      <description>&lt;p&gt;Atualmente, a história da criptografia é dividida em 3 fases, cada uma com uma determinada característica. Neste post vou explorar a primeira fase, alguns de seus algorítmos e como quebrá-los.&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>Bem-vindo ao Full Stack Hacker</title>
@@ -80,7 +17,7 @@
       <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/posts/bem-vindo-ao-full-stack-hacker/</guid>
-      <description>&lt;p&gt;E aí hacker, espero que você esteja muito bem! Eu gostaria de dar-lhe as boas vindas a este pequeno espaço onde irei compartilhar um pouco de minhas experiências e interesses em diversas áreas relacionados à desenvolvimento de software, seja muito bem vindo ao &lt;strong&gt;Full Stack Hacker&lt;/strong&gt;.&lt;/p&gt;</description>
+      <description>E aí hacker, espero que você esteja muito bem! Eu gostaria de dar-lhe as boas vindas a este pequeno espaço onde irei compartilhar um pouco de minhas experiências e interesses em diversas áreas relacionados à desenvolvimento de software, seja muito bem vindo ao Full Stack Hacker.</description>
     </item>
     
   </channel>

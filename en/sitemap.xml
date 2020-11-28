@@ -18,36 +18,6 @@
   </url>
   
   <url>
-    <loc>/en/inspirations/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/inspirations/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/inspirations/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/personas/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/personas/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/personas/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/about/</loc>
     <xhtml:link
                 rel="alternate"
@@ -77,28 +47,6 @@
   </url>
   
   <url>
-    <loc>/en/categories/culture/</loc>
-    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/en/tags/full-stack-hacker/</loc>
-    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/tags/full-stack-hacker/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/full-stack-hacker/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/</loc>
     <lastmod>2020-09-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -111,22 +59,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tags/me/</loc>
-    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/tags/me/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/me/"
                 />
   </url>
   
@@ -148,7 +80,6 @@
   
   <url>
     <loc>/en/tags/</loc>
-    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"

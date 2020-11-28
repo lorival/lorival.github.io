@@ -3,76 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/summary/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/inspirations/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/inspirations/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/inspirations/"
-                />
-  </url>
-  
-  <url>
-    <loc>/personas/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/personas/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/personas/"
-                />
-  </url>
-  
-  <url>
-    <loc>/posts/data-encryption-standard-des/</loc>
-    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/cifra-de-bloco-e-permuta%C3%A7%C3%B5es-pseudo-aleat%C3%B3rias/</loc>
-    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/cifras-de-fluxo-e-como-quebrar-a-camada-de-seguran%C3%A7a-wep/</loc>
-    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/o-segredo-perfeito-e-a-cifra-one-time-pad-otp/</loc>
-    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/o-que-%C3%A9-uma-cifra-de-chave-sim%C3%A9trica/</loc>
-    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/n%C3%BAmeros-aleat%C3%B3rios-gerados-por-computador-s%C3%A3o-mesmo-aleat%C3%B3rios/</loc>
-    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/uma-breve-hist%C3%B3ria-da-criptografia-parte-1-de-3/</loc>
-    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/bem-vindo-ao-full-stack-hacker/</loc>
     <lastmod>2020-10-11T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -102,16 +32,6 @@
   </url>
   
   <url>
-    <loc>/admin/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/algorithm/</loc>
-    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -127,36 +47,8 @@
   </url>
   
   <url>
-    <loc>/tags/cipher/</loc>
-    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/cryptography/</loc>
-    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/full-stack-hacker/</loc>
-    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/full-stack-hacker/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/tags/full-stack-hacker/"
-                />
-  </url>
-  
-  <url>
     <loc>/</loc>
-    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -171,30 +63,8 @@
   </url>
   
   <url>
-    <loc>/tags/me/</loc>
-    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/me/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/tags/me/"
-                />
-  </url>
-  
-  <url>
-    <loc>/tags/otp/</loc>
-    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/posts/</loc>
-    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -209,32 +79,7 @@
   </url>
   
   <url>
-    <loc>/tags/prg/</loc>
-    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/security/</loc>
-    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/statistics/</loc>
-    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/symetric/</loc>
-    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/</loc>
-    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -246,18 +91,6 @@
                 hreflang="pt"
                 href="/tags/"
                 />
-  </url>
-  
-  <url>
-    <loc>/tags/wep/</loc>
-    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/wifi/</loc>
-    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>
