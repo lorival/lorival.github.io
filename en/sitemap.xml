@@ -3,7 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/en/</loc>
-    <lastmod>2019-11-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -13,44 +12,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/"
-                />
-  </url><url>
-    <loc>/en/posts/</loc>
-    <lastmod>2019-11-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/"
-                />
-  </url><url>
-    <loc>/en/posts/welcome-to-full-stack-hacker/</loc>
-    <lastmod>2019-11-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/posts/bem-vindo-ao-full-stack-hacker/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/welcome-to-full-stack-hacker/"
-                />
-  </url><url>
-    <loc>/en/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/about/"
                 />
   </url><url>
     <loc>/en/categories/</loc>
