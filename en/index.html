@@ -127,11 +127,228 @@
             </div>
             
 <div class="col-xs-12">
-    <section class="white-box" style="text-align: center;background-color: #eeeeee;padding-bottom: 1px;">
+    <section class="white-box" style="text-align: center;background-color: padding-bottom: 1px; ">
         <h1>Companies I worked for</h1>
         <h2>as a software engineer</h2>
+        <br>
+        <style>
+
+ 
+.custom-ul {
+    --color: rgba(30, 30, 30);
+    --bgColor: rgba(245, 245, 245);
+    color: var(--color);
+    --col-gap: 2rem;
+    --row-gap: 2rem;
+    --line-w: 0.25rem;
+    display: grid;
+    grid-template-columns: var(--line-w) 1fr;
+    grid-auto-columns: max-content;
+    column-gap: var(--col-gap);
+    list-style: none;
+    width: min(60rem, 90%);
+    margin-inline: auto;
+}
+
+ 
+.custom-ul::before {
+    content: "";
+    grid-column: 1;
+    grid-row: 1 / span 20;
+    background: rgb(225, 225, 225);
+    border-radius: calc(var(--line-w) / 2);
+}
+
+ 
+
+ 
+.custom-ul li:not(:last-child) {
+    margin-bottom: var(--row-gap);
+}
+
+ 
+.custom-ul li {
+    grid-column: 2;
+    --inlineP: 1.5rem;
+    margin-inline: var(--inlineP);
+    grid-row: span 2;
+    display: grid;
+    grid-template-rows: min-content min-content min-content;
+}
+
+ 
+.custom-ul li .date {
+    --dateH: 3rem;
+    height: var(--dateH);
+    margin-inline: calc(var(--inlineP) * -1);
+
+    text-align: center;
+    background-color: var(--accent-color);
+
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+
+    display: grid;
+    place-content: center;
+    position: relative;
+
+    border-radius: calc(var(--dateH) / 2) 0 0 calc(var(--dateH) / 2);
+}
+
+ 
+.custom-ul li .date::before {
+    content: "";
+    width: var(--inlineP);
+    aspect-ratio: 1;
+    background: var(--accent-color);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2) 100%, transparent);
+    position: absolute;
+    top: 100%;
+
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    right: 0;
+}
+
+ 
+.custom-ul li .date::after {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    aspect-ratio: 1;
+    background: var(--bgColor);
+    border: 0.3rem solid var(--accent-color);
+    border-radius: 50%;
+    top: 50%;
+    background-color: var(--accent-color);
+    transform: translate(50%, -50%);
+    right: calc(100% + var(--col-gap) + var(--line-w) / 2);
+}
+
+ 
+.custom-ul li .title,
+.custom-ul li .descr {
+    background: var(--bgColor);
+    position: relative;
+    padding-inline: 1.5rem;
+}
+.custom-ul li .title {
+    overflow: hidden;
+    padding-block-start: 1.5rem;
+    padding-block-end: 1rem;
+    font-weight: 500;
+}
+.custom-ul li .descr {
+    padding-block-end: 1.5rem;
+    font-weight: 300;
+}
+
+ 
+.custom-ul li .title::before,
+.custom-ul li .descr::before {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 0.5rem;
+    background: rgba(0, 0, 0, 0.5);
+    left: 50%;
+    border-radius: 50%;
+    filter: blur(4px);
+    transform: translate(-50%, 50%);
+}
+.custom-ul li .title::before {
+    bottom: calc(100% + 0.125rem);
+}
+.custom-ul li .descr::before {
+    z-index: -1;
+    bottom: 0.25rem;
+}
+
+@media (min-width: 40rem) {
+    .custom-ul {
+        grid-template-columns: 1fr var(--line-w) 1fr;
+    }
+    .custom-ul::before {
+        grid-column: 2;
+    }
+    .custom-ul li:nth-child(odd) {
+        grid-column: 1;
+    }
+    .custom-ul li:nth-child(even) {
+        grid-column: 3;
+    }
+
+     
+    .custom-ul li:nth-child(2) {
+        grid-row: 2/4;
+    }
+
+    .custom-ul li:nth-child(odd) .date::before {
+        clip-path: polygon(0 0, 100% 0, 100% 100%);
+        left: 0;
+    }
+
+    .custom-ul li:nth-child(odd) .date::after {
+        transform: translate(-50%, -50%);
+        left: calc(100% + var(--col-gap) + var(--line-w) / 2);
+    }
+    .custom-ul li:nth-child(odd) .date {
+        border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
+    }
+}
+
+
+</style>
+
+<ul class="custom-ul">
+  
+            <li style="--accent-color:#E6A12F">
+                <div class="date"><a style="color: white;" href="https://pensa-b.com.br/" target="_blank">Pensa-B Sistemas (2005-2008)</a></div>
+                <div class="title">I started as a junior developer and worked on one of the largest library systems in Brazil, MultiAcervo.</div>
+                <div class="descr">GeneXus | C# WinForms | PG-SQL</div>
+                <div class="descr">Joinville, Brazil</div>
+            </li>
+            <li style="--accent-color:#FF5A21">
+                <div class="date"><a style="color: white;" href="https://www.thomsonreuters.com/" target="_blank">Thomson Reuters (2008-2014)</a></div>
+                <div class="title">I worked as a mid-level and later senior software engineer, technical lead, and architect at one of the world's largest news and financial companies.</div>
+                <div class="descr">C# ASP.NET | Java Spring MVC | AngularJS | OracleDB</div>
+                <div class="descr">Joinville, Brazil</div>
+            </li>
+            <li style="--accent-color:#EF1537">
+                <div class="date"><a style="color: white;" href="https://www.esauce.com.br/" target="_blank">eSauce (2014-2017)</a></div>
+                <div class="title">As a co-owner, I worked as a senior software engineer and technical lead at one of Brazil's largest digital marketing agencies, mainly developing solutions for IOS and Android applications.</div>
+                <div class="descr">C# ASP.NET Core | Titanium SDK | AWS | SQL-Server</div>
+                <div class="descr">Joinville, Brazil</div>
+            </li>
+            <li style="--accent-color:#007BE0">
+                <div class="date"><a style="color: white;" href="https://contaazul.com/" target="_blank">ContaAzul (2017-2019)</a></div>
+                <div class="title">I worked as a technical lead and later as a solutions architect at the most comprehensive SaaS platform for small and medium-sized businesses in Brazil.</div>
+                <div class="descr">Java SpringBoot | AWS | PG-SQL</div>
+                <div class="descr">Joinville, Brazil</div>
+            </li>
+            <li style="--accent-color:#4C00B0">
+                <div class="date"><a style="color: white;" href="https://www.talkdesk.com/" target="_blank">Talkdesk (2019-2020)</a></div>
+                <div class="title">I worked as a senior software engineer on the leading SaaS platform in the USA for contact center, unified communication, and artificial intelligence.</div>
+                <div class="descr">Ruby | AWS | MongoDB</div>
+                <div class="descr">Porto, Portugal</div>
+            </li>
+            <li style="--accent-color:#005DC9">
+                <div class="date"><a style="color: white;" href="https://www.criticaltechworks.com/" target="_blank">BMW (2020-2021)</a></div>
+                <div class="title">I worked as a senior software engineer and technical lead at Critical Techworks, a BMW group company focused on developing software for cars of the future.</div>
+                <div class="descr">Java Quarkus | AWS | PG-SQL</div>
+                <div class="descr">Porto, Portugal</div>
+            </li>
+            <li style="--accent-color:#002C5C">
+                <div class="date"><a style="color: white;" href="https://kuehne-nagel.com/" target="_blank">Kuehne+Nagel (2021-Present)</a></div>
+                <div class="title">I work as a technical lead and architect at the world's largest maritime logistics company.</div>
+                <div class="descr">Java SpringBoot | Openshift | OracleDB</div>
+                <div class="descr">Porto, Portugal</div>
+            </li>
+            
+</ul>
+
+
     </section>
-    <img src="/images/about/companies.jpg" style="width: 100%">
 </div>
 
 <div class="col-xs-12">
@@ -224,12 +441,226 @@
 </div>
 
 <div class="col-xs-12">
-    <section class="white-box" style="text-align: center;background-color: #eeeeee;padding-bottom: 1px;">
-        <h1>Outras atividades</h1>
-        <h2>e projetos legais</h2>
+    <section class="white-box" style="text-align: center;background-color: padding-bottom: 1px;">
+        <h1>Other activities</h1>
+        <h2>and projects</h2>
         </br>
+        <style>
+
+ 
+.custom-ul {
+    --color: rgba(30, 30, 30);
+    --bgColor: rgba(245, 245, 245);
+    color: var(--color);
+    --col-gap: 2rem;
+    --row-gap: 2rem;
+    --line-w: 0.25rem;
+    display: grid;
+    grid-template-columns: var(--line-w) 1fr;
+    grid-auto-columns: max-content;
+    column-gap: var(--col-gap);
+    list-style: none;
+    width: min(60rem, 90%);
+    margin-inline: auto;
+}
+
+ 
+.custom-ul::before {
+    content: "";
+    grid-column: 1;
+    grid-row: 1 / span 20;
+    background: rgb(225, 225, 225);
+    border-radius: calc(var(--line-w) / 2);
+}
+
+ 
+
+ 
+.custom-ul li:not(:last-child) {
+    margin-bottom: var(--row-gap);
+}
+
+ 
+.custom-ul li {
+    grid-column: 2;
+    --inlineP: 1.5rem;
+    margin-inline: var(--inlineP);
+    grid-row: span 2;
+    display: grid;
+    grid-template-rows: min-content min-content min-content;
+}
+
+ 
+.custom-ul li .date {
+    --dateH: 3rem;
+    height: var(--dateH);
+    margin-inline: calc(var(--inlineP) * -1);
+
+    text-align: center;
+    background-color: var(--accent-color);
+
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+
+    display: grid;
+    place-content: center;
+    position: relative;
+
+    border-radius: calc(var(--dateH) / 2) 0 0 calc(var(--dateH) / 2);
+}
+
+ 
+.custom-ul li .date::before {
+    content: "";
+    width: var(--inlineP);
+    aspect-ratio: 1;
+    background: var(--accent-color);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2) 100%, transparent);
+    position: absolute;
+    top: 100%;
+
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    right: 0;
+}
+
+ 
+.custom-ul li .date::after {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    aspect-ratio: 1;
+    background: var(--bgColor);
+    border: 0.3rem solid var(--accent-color);
+    border-radius: 50%;
+    top: 50%;
+    background-color: var(--accent-color);
+    transform: translate(50%, -50%);
+    right: calc(100% + var(--col-gap) + var(--line-w) / 2);
+}
+
+ 
+.custom-ul li .title,
+.custom-ul li .descr {
+    background: var(--bgColor);
+    position: relative;
+    padding-inline: 1.5rem;
+}
+.custom-ul li .title {
+    overflow: hidden;
+    padding-block-start: 1.5rem;
+    padding-block-end: 1rem;
+    font-weight: 500;
+}
+.custom-ul li .descr {
+    padding-block-end: 1.5rem;
+    font-weight: 300;
+}
+
+ 
+.custom-ul li .title::before,
+.custom-ul li .descr::before {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 0.5rem;
+    background: rgba(0, 0, 0, 0.5);
+    left: 50%;
+    border-radius: 50%;
+    filter: blur(4px);
+    transform: translate(-50%, 50%);
+}
+.custom-ul li .title::before {
+    bottom: calc(100% + 0.125rem);
+}
+.custom-ul li .descr::before {
+    z-index: -1;
+    bottom: 0.25rem;
+}
+
+@media (min-width: 40rem) {
+    .custom-ul {
+        grid-template-columns: 1fr var(--line-w) 1fr;
+    }
+    .custom-ul::before {
+        grid-column: 2;
+    }
+    .custom-ul li:nth-child(odd) {
+        grid-column: 1;
+    }
+    .custom-ul li:nth-child(even) {
+        grid-column: 3;
+    }
+
+     
+    .custom-ul li:nth-child(2) {
+        grid-row: 2/4;
+    }
+
+    .custom-ul li:nth-child(odd) .date::before {
+        clip-path: polygon(0 0, 100% 0, 100% 100%);
+        left: 0;
+    }
+
+    .custom-ul li:nth-child(odd) .date::after {
+        transform: translate(-50%, -50%);
+        left: calc(100% + var(--col-gap) + var(--line-w) / 2);
+    }
+    .custom-ul li:nth-child(odd) .date {
+        border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
+    }
+}
+
+
+</style>
+
+<ul class="custom-ul">
+  
+            <li style="--accent-color:#007BE0">
+                <div class="date">PC Maintenance (2003-2005)</div>
+                <div class="title">I began my IT career working as a computer technician, configuring networks, and assembling and formatting computers.</div>
+            </li>
+            <li style="--accent-color:#007BE0">
+                <div class="date">SID Schools (2005)</a></div>
+                <div class="title">I started teaching basic computer skills, web design, and programming. Later on, I worked as an instructor in other companies, focusing on short courses lasting 2 to 3 months.</div>
+            </li>
+            <li style="--accent-color:#007BE0">
+                <div class="date">Joinville Dojo (2009-2011)</a></div>
+                <div class="title">Together with Guilherme Oenning, we created a Coding Dojo group in our city. During this period, we organized events at universities and companies that hosted us.</div>
+            </li>
+            <li style="--accent-color:#007BE0">
+                <div class="date">Scientific Papers (2010-2011)</div>
+                <div class="title">With Master Paulo Bousfield, we wrote and published 2 short papers applying artificial neural networks, one of which was presented in Germany and the other published in CSBC.</div>
+            </li>
+            <li style="--accent-color:#007BE0">
+                <div class="date">Bit2Bit (2011-2015)</a></div>
+                <div class="title">I won a competition with more than 1000 potential companies and founded my first company, Bit2Bit. It was closed when I became a co-owner in another company, eSauce.</div>
+            </li>
+            <li style="--accent-color:#007BE0">
+                <div class="date">Instaurant (2014-2016) </div>
+                <div class="title">With my partners from eSauce, we created Instaurant, "your order in an instant." It's an app that allows you to place orders directly at the restaurant table, increasing order efficiency.</div>
+            </li>
+            <li style="--accent-color:#007BE0">
+                <div class="date">Opentech and Gofind (2018-2019)</a></div>
+                <div class="title">I did two consulting projects that I enjoyed. The first was helping with the use of a microservices ecosystem at Opentech, and the second was creating an alpha version of a tool for Gofind using deep learning.</div>
+            </li>
+            <li style="--accent-color:#007BE0">
+                <div class="date">Move to Portugal (2019)</a></div>
+                <div class="title">With my wife and our two cats, we crossed the ocean to experience a new phase of life, working and living in Portugal, where I started at Talkdesk.</div>
+            </li>
+            <li style="--accent-color:#007BE0">
+                <div class="date">Full Stack Hacker (2022)</a></div>
+                <div class="title">I restarted the Full Stack Hacker blog, where I share technical knowledge and best practices about software development.</div>
+            </li>
+            <li style="--accent-color:#007BE0">
+                <div class="date">Guidelines4Dev (2023)</a></div>
+                <div class="title">I initiated a project with the goal of creating an online book of guidelines for developers.</div>
+            </li>
+            
+</ul>
+
+
     </section>
-    <img src="/images/about/projects.jpg" style="width: 100%">
 </div>
         </div>
     </div>
