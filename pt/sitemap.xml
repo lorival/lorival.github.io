@@ -14,6 +14,8 @@
                 href="/"
                 />
   </url><url>
+    <loc>/admin/</loc>
+  </url><url>
     <loc>/categories/</loc>
     <xhtml:link
                 rel="alternate"
