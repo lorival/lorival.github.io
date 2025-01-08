@@ -81,7 +81,7 @@ body {
   padding: 50px 44px; }
   @media (max-width: 575px) {
     .white-box {
-      padding: 40px 30px; } }
+      padding: 40px 0px; } }
 
 /*-------------------------------------- 1.1 Fonts & Colors --------------------------------------*/
 p {

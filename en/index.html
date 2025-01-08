@@ -111,7 +111,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <section class="general-info white-box">
+                <section class="general-info white-box" style="text-align: justify;">
                     <div class="author">
                         <img src="/images/about/profile_thumb.jpg" style="margin-bottom: 28px;"  alt="" data-rjs="2">
                         <ul class="author-nav" style="text-align: center;">
@@ -123,7 +123,7 @@
 </ul>
                     </div>
                     <div class="general-info-right">
-                        <h1>Lorival Smolski Chapuis</h1>
+                        <h1 style="font-size: 1.5em;">Lorival Smolski Chapuis</h1>
                         <div class="clear"></div>
                         <span class="general-info-right-author-info">Tech Lead at company <a href="https://www.kuehne-nagel.com" target="_BLANK" title="Kuehne &#43; Nagel"><i class="pe-7s-anchor"></i> Kuehne &#43; Nagel</a> in <a href="https://en.wikipedia.org/wiki/Porto" target="_BLANK" title="Porto, Portugal"><i class="pe-7s-home"></i> Porto, Portugal</a> </span>
                         </br>
@@ -182,6 +182,13 @@
     grid-row: span 2;
     display: grid;
     grid-template-rows: min-content min-content min-content;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .custom-ul li {
+    font-size: 0.8rem;
+  }
 }
 
  
@@ -194,7 +201,7 @@
     background-color: var(--accent-color);
 
     color: white;
-    font-size: 1.25rem;
+    font-size: 0.9rem;
     font-weight: 700;
 
     display: grid;
@@ -206,7 +213,7 @@
 
 @media (max-width: 768px) {
   .custom-ul li .date {
-    font-size: 0.7rem;  
+    font-size: 0.8rem; 
   }
 }
 
@@ -317,43 +324,43 @@
 <ul class="custom-ul">
   
             <li style="--accent-color:#002C5C">
-                <div class="date"><a style="color: white;" href="https://kuehne-nagel.com/" target="_blank">Kuehne+Nagel (2021-Present)</a></div>
+                <div class="date"><a style="color: white;" href="https://kuehne-nagel.com/" target="_blank">Kuehne+Nagel <br> (2021)</a></div>
                 <div class="title">The world's leader in maritime logistics</div>
                 <div class="descr">Tech Lead | Architect | Java Spring | Kafka | DevOps | OracleDB</div>
                 <div class="descr">Porto, Portugal</div>
             </li>
             <li style="--accent-color:#005DC9">
-                <div class="date"><a style="color: white;" href="https://www.criticaltechworks.com/" target="_blank">BMW (2020-2021)</a></div>
+                <div class="date"><a style="color: white;" href="https://www.criticaltechworks.com/" target="_blank">BMW <br> (2020-2021)</a></div>
                 <div class="title">The world's leading provider of premium cars and motorcycles</div>
                 <div class="descr">Tech Lead | Java Quarkus | DevSecOps | AWS | PG-SQL</div>
                 <div class="descr">Porto, Portugal</div>
             </li>
             <li style="--accent-color:#4C00B0">
-                <div class="date"><a style="color: white;" href="https://www.talkdesk.com/" target="_blank">Talkdesk (2019-2020)</a></div>
+                <div class="date"><a style="color: white;" href="https://www.talkdesk.com/" target="_blank">Talkdesk <br> (2019-2020)</a></div>
                 <div class="title">The USA's leader in SaaS platform for contact center</div>
                 <div class="descr">Software Engineer | Ruby | AWS | MongoDB</div>
                 <div class="descr">Porto, Portugal</div>
             </li>
             <li style="--accent-color:#007BE0">
-                <div class="date"><a style="color: white;" href="https://contaazul.com/" target="_blank">ContaAzul (2017-2019)</a></div>
+                <div class="date"><a style="color: white;" href="https://contaazul.com/" target="_blank">ContaAzul <br> (2017-2019)</a></div>
                 <div class="title">The Brazil's leading FinTech in the SaaS segment for small and medium-sized businesses</div>
                 <div class="descr">Solution Architect | Tech Lead | Java SpringBoot | AWS | DevOps | PG-SQL</div>
                 <div class="descr">Joinville, Brazil</div>
             </li>
             <li style="--accent-color:#EF1537">
-                <div class="date"><a style="color: white;" href="https://www.esauce.com.br/" target="_blank">eSauce (2014-2017)</a></div>
+                <div class="date"><a style="color: white;" href="https://www.esauce.com.br/" target="_blank">eSauce <br> (2014-2017)</a></div>
                 <div class="title">Digital marketing agency: developing solutions for IOS and Android applications</div>
                 <div class="descr">Co-owner | Software Engineer | C# ASP.NET Core | Titanium SDK | AWS | DevOps | SQL-Server</div>
                 <div class="descr">Joinville, Brazil</div>
             </li>
             <li style="--accent-color:#FF5A21">
-                <div class="date"><a style="color: white;" href="https://www.thomsonreuters.com/" target="_blank">Thomson Reuters (2008-2014)</a></div>
+                <div class="date"><a style="color: white;" href="https://www.thomsonreuters.com/" target="_blank">Thomson Reuters <br> (2008-2014)</a></div>
                 <div class="title">The world's largest news and financial companies</div>
                 <div class="descr">Architect | Software Engineer | C# ASP.NET | Java Spring | AngularJS | OracleDB</div>
                 <div class="descr">Joinville, Brazil</div>
             </li>
             <li style="--accent-color:#E6A12F">
-                <div class="date"><a style="color: white;" href="https://pensa-b.com.br/" target="_blank">Pensa-B Sistemas (2005-2008)</a></div>
+                <div class="date"><a style="color: white;" href="https://pensa-b.com.br/" target="_blank">Pensa-B Sistemas <br> (2005-2008)</a></div>
                 <div class="title">The Brazil's leading library systems, MultiAcervo</div>
                 <div class="descr">Software Developer | GeneXus | C# WinForms | .Net | PG-SQL</div>
                 <div class="descr">Joinville, Brazil</div>
@@ -557,6 +564,13 @@
     grid-row: span 2;
     display: grid;
     grid-template-rows: min-content min-content min-content;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .custom-ul li {
+    font-size: 0.8rem;
+  }
 }
 
  
@@ -569,7 +583,7 @@
     background-color: var(--accent-color);
 
     color: white;
-    font-size: 1.25rem;
+    font-size: 0.9rem;
     font-weight: 700;
 
     display: grid;
@@ -581,7 +595,7 @@
 
 @media (max-width: 768px) {
   .custom-ul li .date {
-    font-size: 0.7rem;  
+    font-size: 0.8rem; 
   }
 }
 
@@ -692,47 +706,47 @@
 <ul class="custom-ul">
   
             <li style="--accent-color:#007BE0">
-                <div class="date">Lody Indie Studio (2025)</div>
+                <div class="date">Lody Indie Studio <br> (2025)</div>
                 <div class="title">I started an independent studio, with my wife, focused on game development.</div>
             </li>
             <li style="--accent-color:#007BE0">
-                <div class="date">Guidelines4Dev (2023)</div>
+                <div class="date">Guidelines4Dev <br> (2023)</div>
                 <div class="title">I initiated a project with the goal of creating an online book of guidelines for developers.</div>
             </li>
             <li style="--accent-color:#007BE0">
-                <div class="date">Full Stack Hacker (2022)</div>
+                <div class="date">Full Stack Hacker <br> (2022)</div>
                 <div class="title">I restarted the Full Stack Hacker blog, where I share technical knowledge and best practices about software development.</div>
             </li>
             <li style="--accent-color:#007BE0">
-                <div class="date">Move to Portugal (2019)</div>
+                <div class="date">Move to Portugal <br> (2019)</div>
                 <div class="title">With my wife and our two cats, we crossed the ocean to experience a new phase of life, working and living in Portugal, where I started at Talkdesk.</div>
             </li>
             <li style="--accent-color:#007BE0">
-                <div class="date">Opentech and Gofind (2018-2019)</div>
+                <div class="date">Opentech and Gofind <br> (2018-2019)</div>
                 <div class="title">I did two consulting projects that I enjoyed. The first was helping with the use of a microservices ecosystem at Opentech, and the second was creating an alpha version of a tool for Gofind using deep learning.</div>
             </li>
             <li style="--accent-color:#007BE0">
-                <div class="date">Instaurant (2014-2016)</div>
+                <div class="date">Instaurant <br> (2014-2016)</div>
                 <div class="title">With my partners from eSauce, we created Instaurant, "your order in an instant." It's an app that allows you to place orders directly at the restaurant table, increasing order efficiency.</div>
             </li>
             <li style="--accent-color:#007BE0">
-                <div class="date">Bit2Bit (2011-2015)</div>
+                <div class="date">Bit2Bit <br> (2011-2015)</div>
                 <div class="title">I won a competition with more than 1000 potential companies and founded my first company, Bit2Bit. It was closed when I became a co-owner in another company, eSauce.</div>
             </li>
             <li style="--accent-color:#007BE0">
-                <div class="date">Scientific Papers (2010-2011)</div>
+                <div class="date">Scientific Papers <br> (2010-2011)</div>
                 <div class="title">With Master Paulo Bousfield, we wrote and published 2 short papers applying artificial neural networks, one of which was presented in Germany and the other published in CSBC.</div>
             </li>
             <li style="--accent-color:#007BE0">
-                <div class="date">Joinville Dojo (2009-2011)</div>
+                <div class="date">Joinville Dojo <br> (2009-2011)</div>
                 <div class="title">Together with Guilherme Oenning, we created a Coding Dojo group in our city. During this period, we organized events at universities and companies that hosted us.</div>
             </li>
             <li style="--accent-color:#007BE0">
-                <div class="date">SID Schools (2005)</div>
+                <div class="date">SID Schools <br> (2005)</div>
                 <div class="title">I started teaching basic computer skills, web design, and programming. Later on, I worked as an instructor in other companies, focusing on short courses lasting 2 to 3 months.</div>
             </li>
             <li style="--accent-color:#007BE0">
-                <div class="date">PC Maintenance (2003-2005)</div>
+                <div class="date">PC Maintenance <br> (2003-2005)</div>
                 <div class="title">I began my IT career working as a computer technician, configuring networks, and assembling and formatting computers.</div>
             </li>            
             
