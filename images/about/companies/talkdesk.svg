@@ -1,0 +1,6 @@
+<svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Talkdesk">
+  <circle cx="42" cy="55" r="9" fill="#6500C9"/>
+  <circle cx="42" cy="75" r="9" fill="#6500C9"/>
+  <circle cx="42" cy="95" r="9" fill="#6500C9"/>
+  <path d="M68 28H89V54H107V76H89V93.5C89 101.5 93.5 105 100.5 105H108V126H97C78 126 68 115.5 68 96.5V28Z" fill="#6500C9"/>
+</svg>

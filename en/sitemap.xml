@@ -2,40 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/en/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/"
-                />
+    <loc>/admin/</loc>
+  </url><url>
+    <loc>/blog/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/"
+                href="/blog/"
                 />
-  </url><url>
-    <loc>/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
+                href="/pt/blog/"
+                />
+  </url><url>
+    <loc>/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
                 href="/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="/en/categories/"
+                hreflang="pt"
+                href="/pt/categories/"
                 />
   </url><url>
-    <loc>/en/tags/</loc>
+    <loc>/jornada/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/jornada/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
+                href="/pt/jornada/"
+                />
+  </url><url>
+    <loc>/library/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/library/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/library/"
+                />
+  </url><url>
+    <loc>/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/"
+                />
+  </url><url>
+    <loc>/stats/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/stats/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/stats/"
+                />
+  </url><url>
+    <loc>/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
                 href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="/en/tags/"
+                hreflang="pt"
+                href="/pt/tags/"
                 />
   </url>
 </urlset>
