@@ -1,18 +1,10 @@
 (function () {
-  const statGrid = document.querySelector("[data-stat-grid]");
-  if (statGrid) {
-    const cards = Array.from(statGrid.children);
-    for (let i = cards.length - 1; i > 0; i -= 1) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [cards[i], cards[j]] = [cards[j], cards[i]];
-    }
-    cards.forEach((card) => statGrid.appendChild(card));
-  }
-
   const root = document.documentElement;
-  const savedTheme = localStorage.getItem("lorival-theme");
-  const prefersLight = window.matchMedia("(prefers-color-scheme: light)").matches;
-  root.dataset.theme = savedTheme || (prefersLight ? "light" : "dark");
+  if (!root.dataset.theme) {
+    const savedTheme = localStorage.getItem("lorival-theme");
+    const prefersLight = window.matchMedia("(prefers-color-scheme: light)").matches;
+    root.dataset.theme = savedTheme || (prefersLight ? "light" : "dark");
+  }
 
   const themeToggle = document.querySelector("[data-theme-toggle]");
   const syncThemeTooltip = () => {
@@ -33,21 +25,45 @@
     syncThemeTooltip();
   });
 
+  const statGrid = document.querySelector("[data-stat-grid]");
+  if (statGrid) {
+    const cards = Array.from(statGrid.children);
+    for (let i = cards.length - 1; i > 0; i -= 1) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [cards[i], cards[j]] = [cards[j], cards[i]];
+    }
+    const fragment = document.createDocumentFragment();
+    cards.forEach((card) => fragment.appendChild(card));
+    statGrid.appendChild(fragment);
+  }
+
   const header = document.querySelector("[data-header]");
-  let lastScrollY = window.scrollY;
+  let lastScrollY = 0;
+  let scrollQueued = false;
+
+  const updateHeader = (y) => {
+    if (!header) return;
+    const goingDown = y > lastScrollY + 8;
+    const goingUp = y < lastScrollY - 8;
+    if (y < 20 || goingUp) header.classList.remove("is-hidden");
+    if (y > 120 && goingDown) header.classList.add("is-hidden");
+    lastScrollY = y;
+  };
 
   const onScroll = () => {
-    if (header) {
-      const goingDown = window.scrollY > lastScrollY + 8;
-      const goingUp = window.scrollY < lastScrollY - 8;
-      if (window.scrollY < 20 || goingUp) header.classList.remove("is-hidden");
-      if (window.scrollY > 120 && goingDown) header.classList.add("is-hidden");
-    }
-    lastScrollY = window.scrollY;
+    if (scrollQueued) return;
+    scrollQueued = true;
+    requestAnimationFrame(() => {
+      scrollQueued = false;
+      updateHeader(window.scrollY);
+    });
   };
 
   document.addEventListener("scroll", onScroll, { passive: true });
-  onScroll();
+  requestAnimationFrame(() => {
+    lastScrollY = window.scrollY;
+    updateHeader(lastScrollY);
+  });
 
   document.querySelectorAll("[data-review-toggle]").forEach((button) => {
     button.addEventListener("click", () => {

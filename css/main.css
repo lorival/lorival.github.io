@@ -1,3 +1,11 @@
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/InterVariable.woff2") format("woff2");
+}
+
 :root {
   color-scheme: dark;
   --bg: #090a0f;
@@ -10,7 +18,6 @@
   --accent: #59d8ff;
   --accent-2: #7cf2b4;
   --accent-3: #7cf2b4;
-  --hero-image: url("https://raw.githubusercontent.com/lorival/lorival/main/assets/header_dark_optimized.jpg");
   --hero-overlay:
     linear-gradient(90deg, rgba(9, 10, 15, 0.68) 0%, rgba(9, 10, 15, 0.42) 40%, rgba(9, 10, 15, 0.08) 100%),
     linear-gradient(0deg, var(--bg) 0%, transparent 28%);
@@ -29,7 +36,6 @@
   --accent: #004f70;
   --accent-2: #0b6842;
   --accent-3: #0b6842;
-  --hero-image: url("https://raw.githubusercontent.com/lorival/lorival/main/assets/header_light_optimized.jpg");
   --hero-overlay:
     linear-gradient(90deg, rgba(248, 241, 231, 0.74) 0%, rgba(248, 241, 231, 0.52) 42%, rgba(248, 241, 231, 0.16) 100%),
     linear-gradient(0deg, var(--bg) 0%, transparent 32%);
@@ -255,10 +261,33 @@ a:hover {
   margin-top: 0;
   padding: 54px max(16px, calc((100% - 1120px) / 2)) 72px;
   overflow: hidden;
-  background-image: var(--hero-overlay), var(--hero-image);
+  background-image: var(--hero-overlay);
   background-size: cover;
   background-position: center;
   border-bottom: 1px solid var(--line);
+}
+
+.hero-media {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  pointer-events: none;
+}
+
+.hero-media-light {
+  display: none;
+}
+
+[data-theme="light"] .hero-media-dark {
+  display: none;
+}
+
+[data-theme="light"] .hero-media-light {
+  display: block;
 }
 
 .hero::before {
