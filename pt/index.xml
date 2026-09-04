@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Lorival Smolski Chapuis on Lorival Smolski Chapuis | Tech Lead | Software Engineer</title>
-		<link>/pt/</link>
-		<description>Recent content in Lorival Smolski Chapuis on Lorival Smolski Chapuis | Tech Lead | Software Engineer</description>
+		<title>Lorival Smolski Chapuis on Lorival Smolski Chapuis | Engenheiro de Software Sênior &amp; Arquiteto</title>
+		<link>https://loriv.al/pt/</link>
+		<description>Recent content in Lorival Smolski Chapuis on Lorival Smolski Chapuis | Engenheiro de Software Sênior &amp; Arquiteto</description>
 		<generator>Hugo</generator>
 		<language>pt</language>
 		
 		
 		
 		
-			<atom:link href="/pt/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://loriv.al/pt/index.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>

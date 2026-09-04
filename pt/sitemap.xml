@@ -2,88 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/pt/blog/</loc>
+    <loc>https://loriv.al/pt/blog/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="/blog/"
+                hreflang="en-us"
+                href="https://loriv.al/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/blog/"
+                href="https://loriv.al/pt/blog/"
                 />
   </url><url>
-    <loc>/pt/categories/</loc>
+    <loc>https://loriv.al/pt/stats/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="/categories/"
+                hreflang="en-us"
+                href="https://loriv.al/stats/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/categories/"
+                href="https://loriv.al/pt/stats/"
                 />
   </url><url>
-    <loc>/pt/stats/</loc>
+    <loc>https://loriv.al/pt/jornada/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="/stats/"
+                hreflang="en-us"
+                href="https://loriv.al/jornada/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/stats/"
+                href="https://loriv.al/pt/jornada/"
                 />
   </url><url>
-    <loc>/pt/jornada/</loc>
+    <loc>https://loriv.al/pt/library/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="/jornada/"
+                hreflang="en-us"
+                href="https://loriv.al/library/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/jornada/"
+                href="https://loriv.al/pt/library/"
                 />
   </url><url>
-    <loc>/pt/library/</loc>
+    <loc>https://loriv.al/pt/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="/library/"
+                hreflang="en-us"
+                href="https://loriv.al/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/library/"
-                />
-  </url><url>
-    <loc>/pt/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/"
-                />
-  </url><url>
-    <loc>/pt/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/tags/"
+                href="https://loriv.al/pt/"
                 />
   </url>
 </urlset>

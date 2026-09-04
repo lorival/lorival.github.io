@@ -8,7 +8,7 @@
   --quiet: #737b8b;
   --line: rgba(244, 240, 232, 0.12);
   --accent: #59d8ff;
-  --accent-2: #ffb454;
+  --accent-2: #7cf2b4;
   --accent-3: #7cf2b4;
   --hero-image: url("https://raw.githubusercontent.com/lorival/lorival/main/assets/header_dark_optimized.jpg");
   --hero-overlay:
@@ -27,7 +27,7 @@
   --quiet: #505b6c;
   --line: rgba(16, 19, 26, 0.18);
   --accent: #004f70;
-  --accent-2: #8b4100;
+  --accent-2: #0b6842;
   --accent-3: #0b6842;
   --hero-image: url("https://raw.githubusercontent.com/lorival/lorival/main/assets/header_light_optimized.jpg");
   --hero-overlay:
@@ -48,7 +48,7 @@ body {
   margin: 0;
   background:
     radial-gradient(circle at 15% -10%, rgba(89, 216, 255, 0.15), transparent 30rem),
-    radial-gradient(circle at 85% 10%, rgba(255, 180, 84, 0.11), transparent 28rem),
+    radial-gradient(circle at 85% 10%, rgba(124, 242, 180, 0.11), transparent 28rem),
     linear-gradient(180deg, var(--bg), var(--bg-soft));
   color: var(--text);
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -233,7 +233,7 @@ a:hover {
 [data-theme="light"] .switch-icon span {
   top: 3px;
   background: var(--accent-2);
-  box-shadow: 0 0 10px rgba(139, 65, 0, 0.4);
+  box-shadow: 0 0 10px rgba(11, 104, 66, 0.4);
 }
 
 .section {
@@ -412,7 +412,7 @@ a:hover {
 [data-theme="light"] .currently-card {
   background:
     linear-gradient(135deg, rgba(0, 79, 112, 0.12), transparent 38%),
-    linear-gradient(315deg, rgba(139, 65, 0, 0.12), transparent 42%),
+    linear-gradient(315deg, rgba(11, 104, 66, 0.12), transparent 42%),
     rgba(255, 248, 236, 0.9);
   box-shadow:
     0 0 0 1px rgba(0, 79, 112, 0.22),
@@ -1340,7 +1340,16 @@ a.company-logo:hover {
   content: "";
 }
 
+.stat-card-toggle .stat-card-toggle-more,
+.stat-card-toggle .stat-card-toggle-less {
+  color: inherit;
+}
+
 .stat-card-toggle:hover {
+  color: var(--accent-3);
+}
+
+.stat-card-details[open] .stat-card-toggle {
   color: var(--accent-3);
 }
 
@@ -1567,7 +1576,7 @@ a.company-logo:hover {
   text-align: center;
 }
 
-.stat-card span {
+.stat-card > span {
   color: var(--muted);
 }
 
@@ -1622,7 +1631,12 @@ a.company-logo:hover {
   .nav-links {
     order: 3;
     width: 100%;
+    justify-content: center;
     gap: 10px 16px;
+  }
+
+  .hero-copy .intro {
+    text-align: justify;
   }
 
   .hero,
@@ -1648,8 +1662,34 @@ a.company-logo:hover {
   }
 
   .hero {
+    width: 100%;
+    max-width: none;
     min-height: auto;
-    padding-top: 42px;
+    margin-inline: 0;
+    padding: 42px 0 64px;
+  }
+
+  .hero-copy,
+  .currently-panel,
+  .credentials {
+    padding-inline: 32px;
+  }
+
+  .split-section h2,
+  .section:has(.reviews) > h2 {
+    text-align: center;
+  }
+
+  .section-footer,
+  .reviews-more {
+    justify-content: center;
+  }
+
+  .reviews-more-link {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
   }
 
   .item-head,
@@ -1657,19 +1697,25 @@ a.company-logo:hover {
     display: grid;
   }
 
-  .journey-split::before {
-    left: 5px;
+  .journey-split::before,
+  .journey-split-item::before,
+  .journey-stack.is-left .journey-split-card::after {
+    display: none;
   }
 
   .journey-split-item {
-    grid-template-columns: 24px 1fr;
-    padding-bottom: 24px;
+    grid-template-columns: 1fr;
+    padding-bottom: 12px;
   }
 
-  .journey-split-item::before {
-    grid-column: 1;
-    grid-row: 1 / -1;
-    align-self: center;
+  .journey-split-item.has-pair {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .journey-split-item.has-stack .journey-stack {
+    display: contents;
   }
 
   .journey-split-item.is-education .journey-split-card,
@@ -1677,49 +1723,75 @@ a.company-logo:hover {
   .journey-split-card.is-left,
   .journey-split-card.is-right,
   .journey-stack.is-left,
-  .journey-stack.is-right {
-    grid-column: 2;
+  .journey-stack.is-right,
+  .journey-split-item.has-pair > .journey-split-card,
+  .journey-split-item.has-stack .journey-split-card {
+    grid-column: auto;
     text-align: left;
+  }
+
+  .journey-split-card.is-left,
+  .journey-stack.is-left .journey-split-card {
     align-items: flex-start;
+  }
+
+  .journey-split-card.is-right,
+  .journey-stack.is-right .journey-split-card {
+    align-items: flex-end;
+  }
+
+  .journey-split-card.is-right .item-head,
+  .journey-split-card.is-right > p,
+  .journey-split-card.is-right .journey-roles,
+  .journey-stack.is-right .journey-split-card .item-head,
+  .journey-stack.is-right .journey-split-card > p,
+  .journey-stack.is-right .journey-split-card .journey-roles {
+    width: 100%;
+    text-align: left;
+  }
+
+  .journey-split-item.has-pair > .journey-split-card,
+  .journey-split-item.has-stack .journey-split-card {
+    order: var(--journey-mobile-order, 0);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 
   .journey-stack.is-tall .journey-split-card {
     height: auto;
   }
 
-  .journey-stack.is-left .journey-split-card::after {
-    right: auto;
-    left: 0;
-    transform: translate(calc(-100% - 6.5px), -50%);
-  }
-
-  .journey-split-item.has-pair {
-    row-gap: 12px;
+  .journey-split-item.is-marker-only,
+  .journey-split-item.is-start {
+    padding-bottom: 22px;
   }
 
   .journey-milestone {
-    grid-column: 2;
-    justify-items: start;
-    text-align: left;
+    grid-column: 1;
+    justify-items: center;
+    text-align: center;
+    width: 100%;
   }
 
   .journey-milestone .journey-split-card {
     width: 100%;
   }
 
+  .journey-milestone.is-start .journey-route-wrap,
   .journey-milestone:not(.is-start) .journey-route-wrap {
-    grid-template-columns: auto 1fr;
-    width: 100%;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    width: auto;
   }
 
-  .journey-milestone:not(.is-start) .journey-start-label {
-    grid-column: 1 / -1;
-    justify-self: start;
-    text-align: left;
-  }
-
-  .journey-milestone:not(.is-start) .journey-start-year {
-    justify-self: start;
+  .journey-milestone:not(.is-start) .journey-start-label,
+  .journey-milestone:not(.is-start) .journey-start-year,
+  .journey-milestone.is-start .journey-start-label,
+  .journey-milestone.is-start .journey-start-year {
+    grid-column: auto;
+    justify-self: center;
+    text-align: center;
   }
 }
 
@@ -1727,6 +1799,18 @@ a.company-logo:hover {
   .section {
     width: min(100% - 24px, 1120px);
     padding: 52px 0;
+  }
+
+  .hero.section {
+    width: 100%;
+    max-width: none;
+    margin-inline: 0;
+  }
+
+  .hero-copy,
+  .currently-panel,
+  .credentials {
+    padding-inline: 28px;
   }
 
   .hero-copy h1 {
