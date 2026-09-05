@@ -14,11 +14,11 @@
                 href="https://loriv.al/pt/blog/"
                 />
   </url><url>
-    <loc>https://loriv.al/jornada/</loc>
+    <loc>https://loriv.al/journey/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://loriv.al/jornada/"
+                href="https://loriv.al/journey/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -59,7 +59,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://loriv.al/pt/stats/"
+                href="https://loriv.al/pt/estatisticas/"
                 />
   </url><url>
     <loc>https://loriv.al/versions/</loc>

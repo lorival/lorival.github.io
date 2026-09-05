@@ -84,6 +84,18 @@ a:hover {
   color: var(--accent-2);
 }
 
+/* link that reads as plain text and only reacts on hover */
+.quiet-link,
+.quiet-link:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.quiet-link:hover,
+.quiet-link:focus-visible {
+  font-weight: 700;
+}
+
 .site-header {
   position: sticky;
   top: 0;
