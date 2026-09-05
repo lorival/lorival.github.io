@@ -82,6 +82,65 @@
     });
   });
 
+  const versionDialog = document.querySelector("[data-version-dialog]");
+  const versionDialogImg = versionDialog?.querySelector("[data-version-dialog-img]");
+  if (versionDialog && versionDialogImg) {
+    const zoomLabel = versionDialog.querySelector("[data-version-zoom-label]");
+    const zoomIn = versionDialog.querySelector("[data-version-zoom-in]");
+    const zoomOut = versionDialog.querySelector("[data-version-zoom-out]");
+    const zoomReset = versionDialog.querySelector("[data-version-zoom-reset]");
+    const baseWidth = 960;
+    const minZoom = 0.5;
+    const maxZoom = 3;
+    const step = 0.25;
+    let zoom = 1;
+
+    const applyZoom = () => {
+      versionDialog.style.setProperty("--version-zoom-width", `${Math.round(baseWidth * zoom)}px`);
+      if (zoomLabel) zoomLabel.textContent = `${Math.round(zoom * 100)}%`;
+    };
+
+    const setZoom = (next) => {
+      zoom = Math.min(maxZoom, Math.max(minZoom, Math.round(next * 100) / 100));
+      applyZoom();
+    };
+
+    document.querySelectorAll("[data-version-lightbox]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const fullSrc = button.getAttribute("data-full") || "";
+        versionDialogImg.removeAttribute("src");
+        versionDialogImg.src = fullSrc;
+        versionDialogImg.alt = button.getAttribute("data-alt") || "";
+        setZoom(1);
+        versionDialog.showModal();
+      });
+    });
+
+    zoomIn?.addEventListener("click", () => setZoom(zoom + step));
+    zoomOut?.addEventListener("click", () => setZoom(zoom - step));
+    zoomReset?.addEventListener("click", () => setZoom(1));
+
+    versionDialog.addEventListener("click", (event) => {
+      if (event.target === versionDialog) versionDialog.close();
+    });
+
+    versionDialog.addEventListener("close", () => {
+      versionDialogImg.removeAttribute("src");
+      versionDialogImg.alt = "";
+      setZoom(1);
+    });
+
+    versionDialog.addEventListener(
+      "wheel",
+      (event) => {
+        if (!(event.metaKey || event.ctrlKey)) return;
+        event.preventDefault();
+        setZoom(zoom + (event.deltaY < 0 ? step : -step));
+      },
+      { passive: false }
+    );
+  }
+
   const typewriter = document.querySelector("[data-typewriter]");
   if (!typewriter || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 

@@ -1618,11 +1618,264 @@ a.company-logo:hover {
   text-align: center;
 }
 
+.site-footer a.footer-version {
+  color: var(--muted);
+  text-decoration: none;
+  font-variant-numeric: tabular-nums;
+}
+
+.site-footer a.footer-version:hover {
+  color: var(--accent);
+}
+
 .footer-heart {
   display: inline-block;
   vertical-align: -2px;
   color: #e25555;
   opacity: 0.9;
+}
+
+.versions-page h1 {
+  margin-bottom: 12px;
+  font-size: clamp(2rem, 4.5vw, 3.4rem);
+  line-height: 1.05;
+}
+
+.versions-intro {
+  max-width: 42rem;
+  color: var(--muted);
+  margin-bottom: 36px;
+}
+
+.versions-intro p {
+  margin: 0;
+}
+
+.version-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 28px;
+}
+
+.version-card {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.4fr);
+  gap: 22px;
+  align-items: start;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--line);
+}
+
+.version-card:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.version-card.is-current {
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--line));
+}
+
+.version-id {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.version-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  border-radius: 999px;
+  color: var(--accent);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.version-kind {
+  margin: 8px 0 0;
+  color: var(--quiet);
+  font-size: 0.82rem;
+}
+
+.version-summary {
+  margin: 12px 0 0;
+  color: var(--muted);
+  max-width: 36rem;
+}
+
+.version-summary a {
+  color: var(--accent);
+}
+
+.version-shot {
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--bg-card);
+  aspect-ratio: 16 / 10;
+}
+
+.version-shot-open {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: zoom-in;
+}
+
+.version-shot-open:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.version-shot img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.version-shot-placeholder {
+  display: grid;
+  place-content: center;
+  gap: 6px;
+  width: 100%;
+  height: 100%;
+  min-height: 180px;
+  color: var(--quiet);
+  text-align: center;
+  background:
+    linear-gradient(135deg, rgba(89, 216, 255, 0.06), transparent 42%),
+    repeating-linear-gradient(
+      -12deg,
+      transparent,
+      transparent 10px,
+      color-mix(in srgb, var(--line) 55%, transparent) 10px,
+      color-mix(in srgb, var(--line) 55%, transparent) 11px
+    );
+}
+
+.version-shot-placeholder span:first-child {
+  color: var(--text);
+  font-size: 1.4rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+.version-shot-placeholder span:last-child {
+  font-size: 0.8rem;
+}
+
+.version-lightbox {
+  width: min(96vw, 960px);
+  max-height: 92vh;
+  margin: auto;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--bg-card);
+  color: var(--text);
+  overflow: auto;
+}
+
+.version-lightbox::backdrop {
+  background: rgba(5, 7, 12, 0.72);
+  backdrop-filter: blur(4px);
+}
+
+.version-lightbox-bar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0;
+  padding: 8px 10px;
+  background: color-mix(in srgb, var(--bg-card) 94%, transparent);
+  border-bottom: 1px solid var(--line);
+}
+
+.version-lightbox-zoom {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.version-lightbox-zoom-btn {
+  min-width: 34px;
+  height: 34px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.version-lightbox-zoom-btn.is-text {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.version-lightbox-zoom-btn:hover {
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
+  color: var(--accent);
+}
+
+.version-lightbox-zoom-label {
+  min-width: 3.4rem;
+  color: var(--quiet);
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
+.version-lightbox-close {
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.version-lightbox-close:hover {
+  color: var(--text);
+}
+
+.version-lightbox-stage {
+  padding: 16px;
+  text-align: center;
+}
+
+.version-lightbox img {
+  display: inline-block;
+  width: var(--version-zoom-width, 960px);
+  max-width: none;
+  height: auto;
+  vertical-align: top;
+  background: var(--bg);
 }
 
 .page-shell {
@@ -1901,6 +2154,15 @@ a.company-logo:hover {
   .logo-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .version-card {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .versions-page h1 {
+    font-size: clamp(1.8rem, 8vw, 2.4rem);
+  }
 }
 </style><script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[{"@type":"WebSite","author":{"@type":"Person","name":"Lorival Smolski Chapuis"},"description":"Senior Software Engineer and Architect based in Porto. Backend architecture, cloud, Java, Spring, Kafka, AWS and end-to-end ownership.","inLanguage":"en","name":"loriv.al","url":"https://loriv.al/"},{"@type":"WebPage","description":"Books and short notes on software engineering ideas curated by Lorival Smolski Chapuis.","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"loriv.al","url":"https://loriv.al/"},"name":"Library | Lorival Smolski Chapuis","url":"https://loriv.al/library/"},{"@type":"Person","address":{"@type":"PostalAddress","addressCountry":"PT","addressLocality":"Porto"},"image":"https://loriv.al/images/avatar/avatar-day.jpg","jobTitle":"Senior Software Engineer \u0026 Architect","name":"Lorival Smolski Chapuis","sameAs":["https://www.linkedin.com/in/lorival/","https://github.com/lorival","https://www.youtube.com/channel/UC45tHhQsUijuE8tZ4IQNTzA"],"url":"https://loriv.al/","worksFor":{"@type":"Organization","name":"Kuehne+Nagel","url":"https://www.kuehne-nagel.com"}}]}
@@ -1986,13 +2248,16 @@ a.company-logo:hover {
 
     </main>
     
+
+
 <footer class="site-footer">
   <p>
     Made and hosted with
     <svg class="footer-heart" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" focusable="false">
       <path fill="currentColor" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
     </svg>
-    using Hugo and GitHub Pages | 2009-2026
+    using Hugo and GitHub Pages | 2009-2026 |
+    <a class="footer-version" href="/versions/" title="Version history">v6.0.1</a>
   </p>
 </footer>
 

@@ -26,6 +26,18 @@
                 href="https://loriv.al/pt/stats/"
                 />
   </url><url>
+    <loc>https://loriv.al/pt/versions/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://loriv.al/versions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://loriv.al/pt/versions/"
+                />
+  </url><url>
     <loc>https://loriv.al/pt/jornada/</loc>
     <xhtml:link
                 rel="alternate"
