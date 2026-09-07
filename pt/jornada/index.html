@@ -66,6 +66,7 @@
   --accent: #59d8ff;
   --accent-2: #7cf2b4;
   --accent-3: #7cf2b4;
+  --blink: #ff8a3d;
   --hero-overlay:
     linear-gradient(90deg, rgba(9, 10, 15, 0.68) 0%, rgba(9, 10, 15, 0.42) 40%, rgba(9, 10, 15, 0.08) 100%),
     linear-gradient(0deg, var(--bg) 0%, transparent 28%);
@@ -84,6 +85,7 @@
   --accent: #004f70;
   --accent-2: #0b6842;
   --accent-3: #0b6842;
+  --blink: #c2410c;
   --hero-overlay:
     linear-gradient(90deg, rgba(248, 241, 231, 0.74) 0%, rgba(248, 241, 231, 0.52) 42%, rgba(248, 241, 231, 0.16) 100%),
     linear-gradient(0deg, var(--bg) 0%, transparent 32%);
@@ -132,16 +134,36 @@ a:hover {
   color: var(--accent-2);
 }
 
-/* link that reads as plain text and only reacts on hover */
-.quiet-link,
-.quiet-link:hover {
-  color: inherit;
-  text-decoration: none;
+/* word that pulses every 3s to hint there is something behind it.
+   the weight comes from text-stroke so the line never reflows. */
+.doom-blink {
+  -webkit-text-stroke-color: currentColor;
+  animation: doom-blink 3s ease-in-out infinite;
 }
 
-.quiet-link:hover,
-.quiet-link:focus-visible {
-  font-weight: 700;
+@keyframes doom-blink {
+  0%,
+  80% {
+    color: inherit;
+    -webkit-text-stroke-width: 0;
+  }
+
+  86%,
+  94% {
+    color: var(--blink);
+    -webkit-text-stroke-width: 0.45px;
+  }
+
+  100% {
+    color: inherit;
+    -webkit-text-stroke-width: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .doom-blink {
+    animation: none;
+  }
 }
 
 .site-header {
@@ -947,12 +969,25 @@ a.company-logo:hover {
 }
 
 .journey-split-card {
+  position: relative;
   padding: 18px;
   border: 1px solid var(--line);
   border-radius: 10px;
   background:
     linear-gradient(135deg, rgba(89, 216, 255, 0.055), transparent 44%),
     rgba(255, 255, 255, 0.028);
+}
+
+/* whole card becomes clickable when the item carries an href */
+.journey-card-link {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: inherit;
+}
+
+.journey-split-card:has(.journey-card-link):hover {
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
 }
 
 .journey-milestone {
@@ -1114,10 +1149,6 @@ a.company-logo:hover {
 .journey-stack.is-tall .journey-split-card > p,
 .journey-stack.is-tall .journey-roles {
   margin-bottom: auto;
-}
-
-.journey-stack.is-left .journey-split-card {
-  position: relative;
 }
 
 .journey-stack.is-left .journey-split-card::after {
@@ -1493,8 +1524,16 @@ a.company-logo:hover {
   padding: 22px;
 }
 
+.skill-card {
+  text-align: center;
+}
+
 .skill-card h3 {
   margin-bottom: 14px;
+}
+
+.skill-card .pills {
+  justify-content: center;
 }
 
 .library-list {
@@ -1709,6 +1748,23 @@ a.company-logo:hover {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   vertical-align: middle;
+}
+
+.version-badge.is-quiet {
+  border-color: var(--line);
+  color: var(--quiet);
+  font-weight: 600;
+}
+
+.version-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 0;
+}
+
+.version-tags .version-badge {
+  margin-left: 0;
 }
 
 .version-kind {
@@ -2243,6 +2299,7 @@ a.company-logo:hover {
 
   
     
+    
     <div class="journey-split long">
       
 <article class="journey-split-item has-pair has-stack">
@@ -2278,6 +2335,7 @@ a.company-logo:hover {
   
 
 
+
       </div>
     
       <div class="journey-split-card" style="--journey-mobile-order: 30">
@@ -2308,6 +2366,7 @@ a.company-logo:hover {
   
     <p>Certificações pela Kanban University</p>
   
+
 
 
       </div>
@@ -2343,6 +2402,7 @@ a.company-logo:hover {
   <ul class="journey-roles">
     <li>Senior Software Architect (3&#43; anos)</li><li>Team Lead e Delivery Manager (1 ano)</li><li>Software Architect (3 meses)</li>
   </ul>
+
 
 
       </div>
@@ -2385,6 +2445,7 @@ a.company-logo:hover {
   
 
 
+
     </div>
   
   
@@ -2416,6 +2477,7 @@ a.company-logo:hover {
   <ul class="journey-roles">
     <li>DevSecOps Engineer (1 ano)</li><li>Senior Software Engineer (4 meses)</li>
   </ul>
+
 
 
     </div>
@@ -2457,6 +2519,7 @@ a.company-logo:hover {
   
 
 
+
     </div>
   
   
@@ -2488,6 +2551,7 @@ a.company-logo:hover {
   
     <p>Senior Software Engineer (8 meses)</p>
   
+
 
 
     </div>
@@ -2542,6 +2606,7 @@ a.company-logo:hover {
   
 
 
+
     </div>
   
   
@@ -2573,6 +2638,7 @@ a.company-logo:hover {
   <ul class="journey-roles">
     <li>Software Architect (8 meses)</li><li>Tech Lead (1 ano)</li><li>Senior Software Engineer (6 meses)</li>
   </ul>
+
 
 
     </div>
@@ -2613,6 +2679,7 @@ a.company-logo:hover {
   
 
 
+
     </div>
   
   
@@ -2644,6 +2711,7 @@ a.company-logo:hover {
   
     <p>Senior Software Engineer · co-fundador</p>
   
+
 
 
     </div>
@@ -2684,6 +2752,7 @@ a.company-logo:hover {
   
 
 
+
     </div>
   
   
@@ -2715,6 +2784,7 @@ a.company-logo:hover {
   <ul class="journey-roles">
     <li>Software Architect (1 ano e 4 meses)</li><li>Senior Software Engineer (2 anos)</li><li>Software Engineer (2 anos e 6 meses)</li>
   </ul>
+
 
 
     </div>
@@ -2755,6 +2825,7 @@ a.company-logo:hover {
   
 
 
+
     </div>
   
   
@@ -2786,6 +2857,7 @@ a.company-logo:hover {
   <ul class="journey-roles">
     <li>Desenvolvedor Júnior (2 anos)</li><li>Analista de Suporte (10 meses)</li><li>Trainee (6 meses)</li>
   </ul>
+
 
 
     </div>
@@ -2826,6 +2898,7 @@ a.company-logo:hover {
   
 
 
+
     </div>
   
   
@@ -2858,6 +2931,7 @@ a.company-logo:hover {
   
     <p>Estagiário técnico (1 ano)</p>
   
+
 
 
     </div>
@@ -2911,8 +2985,11 @@ a.company-logo:hover {
       </div>
       
   
-    <p>Curso de informática e manutenção e muitas horas de <a class="quiet-link" href="/pt/iddqd/">Doom</a>, Wolfenstein, Duke Nukem, Caesar III, Age of Empires e Dark Colony</p>
+    <p>Curso de informática e manutenção e muitas horas de <span class="doom-blink">Doom</span>, Wolfenstein, Duke Nukem, Caesar III, Age of Empires e Dark Colony</p>
   
+
+
+  <a class="journey-card-link" href="/pt/iddqd/" aria-label="Jogar Doom no browser"></a>
 
 
     </div>
@@ -2945,6 +3022,7 @@ a.company-logo:hover {
   
     <p>Arrumava computadores de amigos e fazia pequenos programas no Access e Delphi 5 para conhecidos</p>
   
+
 
 
     </div>
@@ -2981,7 +3059,7 @@ a.company-logo:hover {
       <path fill="currentColor" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
     </svg>
     using Hugo and GitHub Pages | 2009-2026 |
-    <a class="footer-version" href="/pt/versions/" title="Histórico de versões">v6.1.0</a>
+    <a class="footer-version" href="/pt/versions/" title="Histórico de versões">v6.1.1</a>
   </p>
 </footer>
 
